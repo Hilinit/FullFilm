@@ -1,7 +1,10 @@
 let toggle = document.getElementById("toggle-btn")
 let sidebar = document.getElementById("sidebar");
 
-toggle.addEventListener("click", () => { sidebar.classList.toggle("-translate-x-full"); });
+function openClose() {
+  sidebar.classList.toggle("-translate-x-full");
+  sidebar.classList.toggle("translate-x-0");
+}
 
 let cards = document.getElementById("Cards")
 let genre = document.getElementById("genre")
@@ -22,6 +25,7 @@ fetch("https://69b99a1ce69653ffe6a8318b.mockapi.io/genre")
         </li>
       `
     })
+
   });
 
 fetch("https://69b99a1ce69653ffe6a8318b.mockapi.io/moveData")
