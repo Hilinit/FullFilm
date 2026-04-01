@@ -9,7 +9,7 @@
 </head>
 <body class="bg-[#0f172b]">
   <div id="detailData">
-      <p class="text-center mt-10 text-white">Məlumat yüklənir...</p>
+      <p class="text-center mt-10 text-white text-[20px]">Məlumat yüklənir...</p>
   </div>
 
   <script>
@@ -18,9 +18,7 @@
     const id = params.get('id');
 
         fetch(`https://69b99a1ce69653ffe6a8318b.mockapi.io/moveData/${id}`)
-            .then(res => {
-                return res.json();
-            })
+            .then(res =>  res.json())
             .then(data => {
                 detailData.innerHTML = `
                 <div class="bg-[#0f172b] min-h-screen py-10">
@@ -28,7 +26,7 @@
                         <div class="grid items-start grid-cols-1 lg:grid-cols-5 gap-12 shadow-lg p-6 rounded-lg border border-gray-100">
                             <div class="lg:col-span-2 w-full lg:sticky top-6">
                                 <div class="rounded-lg overflow-hidden shadow-md">
-                                    <img src="${data.poster}" alt="${data.title}" class="w-full h-[500px] object-cover" />
+                                    <img src="${data.poster}" alt="${data.title}" class="w-full h-[300px] lg:h-[600px]" />
                                 </div>
                             </div>
                             
@@ -36,10 +34,10 @@
                                 <h3 class="text-3xl font-bold text-slate-900 mb-2 text-white">${data.title}</h3>
                                 
                                 <div class="flex flex-col space-y-2 mb-6 text-slate-600">
-                                    <p><span class="font-semibold text-white">Janr:</span> ${data.genre.join(', ')}</p>
+                                    <p><span class="font-semibold text-white">Janr:</span> ${data.genre}</p>
                                     <p><span class="font-semibold text-yellow-600">IMDB:</span> ${data.imdbRating}</p>
                                     <p><span class="font-semibold text-white">Rejissor:</span> ${data.director}</p>
-                                    <p><span class="font-semibold text-white">Aktyorlar:</span> ${data.cast.join(', ')}</p>
+                                    <p><span class="font-semibold text-white">Aktyorlar:</span> ${data.cast}</p>
                                 </div>
 
                                 <div class="border-t border-gray-100 pt-4">
@@ -59,7 +57,7 @@
                             </div>
                         </div>
                     </div>
-                </div>`;
+                </div>`
             })
   </script>
 </body>

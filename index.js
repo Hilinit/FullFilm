@@ -22,15 +22,19 @@ fetch("https://69b99a1ce69653ffe6a8318b.mockapi.io/genre")
         </li>
       `
     })
+
   });
+
 fetch("https://69b99a1ce69653ffe6a8318b.mockapi.io/moveData")
   .then(response => response.json())
   .then(data => {
     all = data;
     getCards(all);
   });
+
 function filtrData(name) {
   const filtered = (name === "Hamısı") ? all : all.filter(f => f.genre.includes(name));
+
   if (filtered.length === 0) {
     display.innerHTML =
       `<main class="grid min-h-full place-items-center bg-gray-900 px-6 py-24 sm:py-32 lg:px-8">
@@ -49,28 +53,36 @@ function filtrData(name) {
     cards.style.display = 'grid'
   }
   title.innerHTML = name === "Hamısı" ? "Bütün Janrlar" : `${name} janrında filmlər/seriallar `;
+
 };
 
 function getCards(show) {
   cards.innerHTML = "";
   show.map(item => {
-    const isBookmarked = bookmark.find(b => b.id === item.id);
+    const isBookmarked = bookmark.find(b => b.id == item.id);
     cards.innerHTML += `
     <div class="flex flex-col bg-[#0b1739] cursor-pointer rounded-sm overflow-hidden shadow-sm hover:scale-[1.03] transition-all duration-300">
+  
     <div class="h-80 w-full object-center relative">
+  
     <div onclick="addBookmark(${item.id})" class="absolute top-3 right-3 bg-black/50 backdrop-blur-md p-2 rounded-full z-10 hover:bg-[#0b1739]transition cursor-pointer">
     <i class="${isBookmarked ? 'fa-solid text-red-500' : 'fa-regular text-white'} fa-bookmark text-lg"></i>
     </div>
+     
       <img src="${item.poster}" alt="${item.title}" class="w-full h-80 " />
     </div>
+  
     <div class="p-6">
       <h3 class="text-lg font-semibold text-slate-200">${item.title}</h3>
+  
       <span class="text-sm block text-slate-400 font-medium mt-2">
         Janr: ${item.genre} | IMDB ${item.imdbRating}
       </span>
+  
       <p class="text-sm text-slate-300 mt-4 leading-relaxed line-clamp-3">
         ${item.description}
       </p>
+  
       <span class="text-sm block text-slate-400 font-medium mt-2">
         ${item.type} |
         ${item.type === "film"
@@ -80,6 +92,8 @@ function getCards(show) {
       <button type="button" onclick="getMore(${item.id})"
     class="px-6 py-2.5  mt-4 rounded-md text-white text-sm cursor-pointer tracking-wider font-medium border-0 outline-0 bg-gradient-to-tr hover:bg-gradient-to-tl from-orange-700 to-orange-400">Daha Çox Oxu</button>
     </div>
+    
+  
   </div>
     `
   })
@@ -110,7 +124,7 @@ function filtrGenre(input) {
     cards.style.display = 'grid'
   }
 
-  title.innerHTML = input === "Hamısı" ? "Bütün Janrlar" : `Axtarışın nəticəsi`;
+  title.innerHTML = input === `Hamısı` ? `Bütün Janrlar` : `Axtarışın nəticəsi`;
 }
 let modal = document.getElementById("modal")
 function openModal() {modal.style.display = (modal.style.display === 'block') ? 'none' : 'block';}
@@ -119,25 +133,28 @@ let bookmark = []
 let message = document.getElementById("message")
 
 function addBookmark(id) {
-  const index = bookmark.findIndex(n => n.id === id); 
+  const index = bookmark.findIndex(n => n.id == id); 
   
   if (index === -1) {
-      const item = all.find(n => n.id === id);
+      const item = all.find(n => n.id == id);
+
       if (item) bookmark.push(item);
   } 
   else {bookmark.splice(index, 1);}
-  message.innerHTML = bookmark.length === 0 ? "Bəyəndiyiniz film/serialları əlavə edin" : `Bəyəndiyiniz film/seriallar`;
+  message.innerHTML = bookmark.length === 0 ? `Bəyəndiyiniz film/serialları əlavə edin` : `Bəyəndiyiniz film/seriallar`;
   getCards(all);
   showBookmarks();
 }
 
 let mark = document.getElementById('mark')
 
+
 function showBookmarks(){
   mark.innerHTML = ''
   bookmark.map(item => {
-    const isBookmarked = bookmark.find(b => b.id === item.id);
-    mark.innerHTML +=`
+    const isBookmarked = bookmark.find(b => b.id == item.id);
+    mark.innerHTML +=
+    `
     <div class="flex flex-wrap items-center gap-4 py-3 cursor-pointer">
     <img src='${item.poster}' class="w-20 h-20 rounded" />
     <div class=" text-white">
@@ -147,7 +164,7 @@ function showBookmarks(){
           ? `${item.details.duration} dəq`
           : `${item.details.seasons} sezon ${item.details.episodes} bölüm`}</p>
     </div>
-    <p  onclick="addBookmark(${item.id})" class="text-xl text-slate-500 mt-0.5 ml-auto"><i id='id${item.id}' class="${isBookmarked ? 'fa-solid text-red-500' : 'fa-regular text-white'} fa-bookmark"></i></p>
+    <p  onclick="addBookmark(${item.id})" class="text-xl text-slate-500 mt-0.5 ml-auto"><i  class="${isBookmarked ? 'fa-solid text-red-500' : 'fa-regular text-white'} fa-bookmark"></i></p>
 </div>
     `})
 }
@@ -155,4 +172,11 @@ console.log(bookmark)
 
 //--------------------------------------------------------------
 
-function getMore(id) {window.location.href = `detail.htm?id=${id}`}
+function getMore(id) {
+  window.location.href = `detail.htm?id=${id}`
+
+  }
+
+function getDetail(){
+  
+}
