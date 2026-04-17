@@ -2,12 +2,8 @@ let toggle = document.getElementById("toggle-btn")
 let sidebar = document.getElementById("sidebar");
 
 let Base_API = `https://69b99a1ce69653ffe6a8318b.mockapi.io/moveData`
-let Genre_API = `https://69b99a1ce69653ffe6a8318b.mockapi.io/genre`
+let News_API = `https://69b99a1ce69653ffe6a8318b.mockapi.io/genre`
 
-function openClose() {
-  sidebar.classList.toggle("-translate-x-full");
-  sidebar.classList.toggle("translate-x-0");
-}
 let title = document.getElementById("title");
 let cards = document.getElementById("Cards")
 let genre = document.getElementById("genre")
@@ -15,17 +11,39 @@ let display = document.getElementById("display")
 
 let all = []
 
-fetch(Genre_API)
-  .then(response => response.json())
-  .then(genreData => {
-    genreData.map(item => {
-      genre.innerHTML += `
-        <li onclick="filtrData('${item.name}')" class="text-gray-300 text-sm font-medium block cursor-pointer ${item.name === 'Hamısı' ? 'bg-[#070b18]' : ''} hover:bg-[#0b1739] rounded-md px-3 py-2 transition-all duration-300">
-            <span>${item.name}</span>
-        </li>
-      `
-    })
-  });
+let genreData = [
+  {"id": 0,"name": "Hamısı"},
+  { "id": 1, "name": "Müharibə"},
+  { "id": 2, "name": "Bioqrafiya"},
+  { "id": 3, "name": "Macəra"},
+  { "id": 4, "name": "Animasiya"},
+  { "id": 5, "name": "Komediya"},
+  { "id": 6, "name": "Cinayət"},
+  { "id": 7, "name": "Drama"},
+  { "id": 8, "name": "Fantastika"},
+  { "id": 9, "name": "Tarixi"},
+  { "id": 10, "name": "Qorxu"},
+  { "id": 11, "name": "Detektiv"},
+  { "id": 12, "name": "Musiqili"},
+  { "id": 13, "name": "Romantik"},
+  { "id": 14, "name": "Elmi fantastika"},
+  { "id": 15, "name": "Triller"},
+  { "id": 16, "name": "Aksiyon"}
+]
+
+genreData.map(item => {
+  genre.innerHTML += `
+    <li onclick="filtrData('${item.name}')" class="text-gray-300 text-sm font-medium block cursor-pointer  hover:bg-orange-500 rounded-md px-3 py-2 transition-all  duration-300">
+        <span>${item.name}</span>
+    </li>
+  `
+})
+
+function openClose() {
+  sidebar.classList.toggle("-translate-x-full");
+  sidebar.classList.toggle("translate-x-0");
+}
+
 
 fetch(Base_API)
   .then(response => response.json())
@@ -78,7 +96,7 @@ function getCards(show) {
     cards.innerHTML += `
     <div class="flex flex-col bg-[#0b1739] cursor-pointer rounded-sm overflow-hidden shadow-sm hover:scale-[1.03] transition-all duration-300">
     <div class="h-80 w-full object-center relative">
-    <div onclick="addBookmark(${item.id})" class="absolute top-3 right-3 bg-black/50 backdrop-blur-md p-2 rounded-full z-10 hover:bg-[#0b1739]transition cursor-pointer">
+    <div onclick="addBookmark(${item.id})" class="absolute top-3 right-3 bg-black/50 backdrop-blur-md p-2 rounded-full z-10 hover:bg-[#0b1739] transition cursor-pointer">
     <i class="${isBookmarked ? 'fa-solid text-red-500' : 'fa-regular text-white'} fa-bookmark text-lg"></i>
     </div>
       <img src="${item.poster}" alt="${item.title}" class="w-full h-80 " />
@@ -105,7 +123,7 @@ function getCards(show) {
   })
 }
 
-//-----------------------------------------------Search filtr---------------------------------------------------------------------
+//-----------------------------------------------Search filtr----------------------------------------------------
 
 let resultSearch = document.getElementById("resultSearch")
 let searchMessage = document.getElementById("searchMessage")
@@ -124,7 +142,7 @@ function filtrGenre(input) {
         `<div class="bg-[#0b1739]sm:p-4 p-3 shadow-sm rounded-lg overflow-hidden cursor-pointer relative border border-orange-500">
           
           <div class="w-full aspect-[205/273] overflow-hidden mx-auto">
-          <div onclick="addBookmark(${item.id})" class="absolute top-3 right-3 bg-black/50 backdrop-blur-md p-2 rounded-full z-10 hover:bg-[#0b1739]transition cursor-pointer">
+          <div onclick="addBookmark(${item.id})" class="absolute top-3 right-3 bg-black/50 backdrop-blur-md p-2 rounded-full z-10 hover:bg-[#0b1739] transition cursor-pointer">
             <i class="${isBookmarked ? 'fa-solid text-red-500' : 'fa-regular text-white'} fa-bookmark text-xl"></i>
         </div>
               <img src="${item.poster}" alt="${item.title}"
@@ -193,4 +211,4 @@ console.log(bookmark)
 
 //--------------------------------------------------------------
 
-
+function showGenre(){ genre.style.display = genre.style.display === 'block' ? 'none' : 'block'; }

@@ -9,160 +9,45 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    
+
     <div class="relative  bg-[#0f172b] h-full min-h-screen">
         <div class="lg:flex items-start">
-          <nav id="sidebar" class="lg:block hidden lg:min-w-[250px] w-max">
+          <nav id="sidebar" class="lg:block hidden lg:min-w-[250px] w-max ">
             <div 
-              class="bg-[#081028] shadow-lg h-screen fixed top-0 left-0 overflow-auto z-[99] w-[250px] transition-all duration-500">
+              class="bg-[#081028] shadow-lg p-3 h-screen fixed lg:border-r-[2px]  lg:border-orange-600 top-0 left-0 overflow-auto z-[99] lg:w-[220px] transition-all duration-500">
               <div class="flex items-center gap-2 pt-6 pb-2 px-4 bg-[#081028]">
-                <h1 class="text-white/80 font-bold text-[25px]">
-                  Full<span class="text-orange-500/50">Film </br></span><span class="text-white/80">DashBoard</span>
+                <h1 class="text-white/80 font-bold text-[35px]">
+                  Full<span class="text-orange-500/50">Film </span>
                 </h1>
               </div>
   
               <div class="py-4 px-4">
                 <ul class="space-y-2">
-                  <li>
-                    <a href="javascript:void(0)"
-                      class="text-orange-500/50 text-[15px] font-medium flex items-center cursor-pointer hover:bg-orange-500/50 hover:text-white/80 rounded-md px-3 py-2.5 transition-all duration-300">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-3"
-                        viewBox="0 0 24 24">
-                        <path
-                          d="M19.56 23.253H4.44a4.051 4.051 0 0 1-4.05-4.05v-9.115c0-1.317.648-2.56 1.728-3.315l7.56-5.292a4.062 4.062 0 0 1 4.644 0l7.56 5.292a4.056 4.056 0 0 1 1.728 3.315v9.115a4.051 4.051 0 0 1-4.05 4.05zM12 2.366a2.45 2.45 0 0 0-1.393.443l-7.56 5.292a2.433 2.433 0 0 0-1.037 1.987v9.115c0 1.34 1.09 2.43 2.43 2.43h15.12c1.34 0 2.43-1.09 2.43-2.43v-9.115c0-.788-.389-1.533-1.037-1.987l-7.56-5.292A2.438 2.438 0 0 0 12 2.377z"
-                          data-original="#000000" />
-                        <path
-                          d="M16.32 23.253H7.68a.816.816 0 0 1-.81-.81v-5.4c0-2.83 2.3-5.13 5.13-5.13s5.13 2.3 5.13 5.13v5.4c0 .443-.367.81-.81.81zm-7.83-1.62h7.02v-4.59c0-1.933-1.577-3.51-3.51-3.51s-3.51 1.577-3.51 3.51z"
-                          data-original="#000000" />
-                      </svg>
-                      <span class="overflow-hidden text-ellipsis whitespace-nowrap">Ana Səhifə</span>
-                      <svg xmlns="http://www.w3.org/2000/svg"
-                        class="arrowIcon w-3 fill-current -rotate-90 ml-auto transition-all duration-500"
-                        viewBox="0 0 451.847 451.847">
-                        <path
-                          d="M225.923 354.706c-8.098 0-16.195-3.092-22.369-9.263L9.27 151.157c-12.359-12.359-12.359-32.397 0-44.751 12.354-12.354 32.388-12.354 44.748 0l171.905 171.915 171.906-171.909c12.359-12.354 32.391-12.354 44.744 0 12.365 12.354 12.365 32.392 0 44.751L248.292 345.449c-6.177 6.172-14.274 9.257-22.369 9.257z"
-                          data-original="#000000" />
-                      </svg>
-                    </a>
-                    
-                  </li>
-  
-                  <li>
-                    <a href="javascript:void(0)"
-                      class="text-orange-500/50 text-[15px] font-medium flex items-center cursor-pointer hover:bg-orange-500/50  hover:text-white/80 rounded-md px-3 py-2.5 transition-all duration-300">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-3"
-                        viewBox="0 0 24 24">
-                        <path
-                          d="M18 2c2.206 0 4 1.794 4 4v12c0 2.206-1.794 4-4 4H6c-2.206 0-4-1.794-4-4V6c0-2.206 1.794-4 4-4zm0-2H6a6 6 0 0 0-6 6v12a6 6 0 0 0 6 6h12a6 6 0 0 0 6-6V6a6 6 0 0 0-6-6z"
-                          data-original="#000000" />
-                        <path d="M12 18a1 1 0 0 1-1-1V7a1 1 0 0 1 2 0v10a1 1 0 0 1-1 1z" data-original="#000000" />
-                        <path d="M6 12a1 1 0 0 1 1-1h10a1 1 0 0 1 0 2H7a1 1 0 0 1-1-1z" data-original="#000000" />
-                      </svg>
-                      <span class="overflow-hidden text-ellipsis whitespace-nowrap">Haqqımızda</span>
-                      <svg xmlns="http://www.w3.org/2000/svg"
-                        class="arrowIcon w-3 fill-current -rotate-90 ml-auto transition-all duration-500"
-                        viewBox="0 0 451.847 451.847">
-                        <path
-                          d="M225.923 354.706c-8.098 0-16.195-3.092-22.369-9.263L9.27 151.157c-12.359-12.359-12.359-32.397 0-44.751 12.354-12.354 32.388-12.354 44.748 0l171.905 171.915 171.906-171.909c12.359-12.354 32.391-12.354 44.744 0 12.365 12.354 12.365 32.392 0 44.751L248.292 345.449c-6.177 6.172-14.274 9.257-22.369 9.257z"
-                          data-original="#000000" />
-                      </svg>
-                    </a>
-                    
-                  </li>
-  
-                  <li>
-                    <a href="javascript:void(0)"
-                      class="text-orange-500/50 text-[15px] font-medium flex items-center cursor-pointer hover:bg-orange-500/50  hover:text-white/80 rounded-md px-3 py-2.5 transition-all duration-300">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-3"
-                        viewBox="0 0 510 510">
-                        <g fill-opacity=".9">
-                          <path
-                            d="M255 0C114.75 0 0 114.75 0 255s114.75 255 255 255 255-114.75 255-255S395.25 0 255 0zm0 459c-112.2 0-204-91.8-204-204S142.8 51 255 51s204 91.8 204 204-91.8 204-204 204z"
-                            data-original="#000000" />
-                          <path d="M267.75 127.5H229.5v153l132.6 81.6 20.4-33.15-114.75-68.85z" data-original="#000000" />
-                        </g>
-                      </svg>
-                      <span class="overflow-hidden text-ellipsis whitespace-nowrap">Xəbərlər</span>
-                      <svg xmlns="http://www.w3.org/2000/svg"
-                        class="arrowIcon w-3 fill-current -rotate-90 ml-auto transition-all duration-500"
-                        viewBox="0 0 451.847 451.847">
-                        <path
-                          d="M225.923 354.706c-8.098 0-16.195-3.092-22.369-9.263L9.27 151.157c-12.359-12.359-12.359-32.397 0-44.751 12.354-12.354 32.388-12.354 44.748 0l171.905 171.915 171.906-171.909c12.359-12.354 32.391-12.354 44.744 0 12.365 12.354 12.365 32.392 0 44.751L248.292 345.449c-6.177 6.172-14.274 9.257-22.369 9.257z"
-                          data-original="#000000" />
-                      </svg>
-                    </a>
-                    
-                  </li>
-  
-                  <li>
-                    <a href="javascript:void(0)"
-                      class="text-orange-500/50 text-[15px] font-medium flex items-center cursor-pointer hover:bg-orange-500/50  hover:text-white/80 rounded-md px-3 py-2.5 transition-all duration-300">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-3"
-                        viewBox="0 0 512 512">
-                        <path
-                          d="M437.02 74.98C388.668 26.63 324.379 0 256 0S123.332 26.629 74.98 74.98C26.63 123.332 0 187.621 0 256s26.629 132.668 74.98 181.02C123.332 485.37 187.621 512 256 512s132.668-26.629 181.02-74.98C485.37 388.668 512 324.379 512 256s-26.629-132.668-74.98-181.02zM111.105 429.297c8.454-72.735 70.989-128.89 144.895-128.89 38.96 0 75.598 15.179 103.156 42.734 23.281 23.285 37.965 53.687 41.742 86.152C361.641 462.172 311.094 482 256 482s-105.637-19.824-144.895-52.703zM256 269.507c-42.871 0-77.754-34.882-77.754-77.753C178.246 148.879 213.13 114 256 114s77.754 34.879 77.754 77.754c0 42.871-34.883 77.754-77.754 77.754zm170.719 134.427a175.9 175.9 0 0 0-46.352-82.004c-18.437-18.438-40.25-32.27-64.039-40.938 28.598-19.394 47.426-52.16 47.426-89.238C363.754 132.34 315.414 84 256 84s-107.754 48.34-107.754 107.754c0 37.098 18.844 69.875 47.465 89.266-21.887 7.976-42.14 20.308-59.566 36.542-25.235 23.5-42.758 53.465-50.883 86.348C50.852 364.242 30 312.512 30 256 30 131.383 131.383 30 256 30s226 101.383 226 226c0 56.523-20.86 108.266-55.281 147.934zm0 0"
-                          data-original="#000000" />
-                      </svg>
-                      <span class="overflow-hidden text-ellipsis whitespace-nowrap">Galeriya</span>
-                      <svg xmlns="http://www.w3.org/2000/svg"
-                        class="arrowIcon w-3 fill-current -rotate-90 ml-auto transition-all duration-500"
-                        viewBox="0 0 451.847 451.847">
-                        <path
-                          d="M225.923 354.706c-8.098 0-16.195-3.092-22.369-9.263L9.27 151.157c-12.359-12.359-12.359-32.397 0-44.751 12.354-12.354 32.388-12.354 44.748 0l171.905 171.915 171.906-171.909c12.359-12.354 32.391-12.354 44.744 0 12.365 12.354 12.365 32.392 0 44.751L248.292 345.449c-6.177 6.172-14.274 9.257-22.369 9.257z"
-                          data-original="#000000" />
-                      </svg>
-                    </a>
-                    
-                  </li>
-  
-                  <li>
-                    <a href="javascript:void(0)"
-                      class="text-orange-500/50 text-[15px] font-medium flex items-center cursor-pointer hover:bg-orange-500/50  hover:text-white/80 rounded-md px-3 py-2.5 transition-all duration-300">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-3"
-                        viewBox="0 0 25 25">
-                        <g data-name="Action Expand">
-                          <path
-                            d="M21.5 1.25h-18A2.25 2.25 0 0 0 1.25 3.5v18a2.25 2.25 0 0 0 2.25 2.25h18a2.25 2.25 0 0 0 2.25-2.25v-18a2.25 2.25 0 0 0-2.25-2.25zm.75 20.25a.75.75 0 0 1-.75.75h-18a.75.75 0 0 1-.75-.75v-18a.75.75 0 0 1 .75-.75h18a.75.75 0 0 1 .75.75z"
-                            data-original="#000000" />
-                          <path d="M11.75 7.25h1.5v10.5h-1.5z" data-original="#000000" />
-                          <path d="M7.25 11.75h10.5v1.5H7.25z" data-original="#000000" />
-                        </g>
-                      </svg>
-                      <span class="overflow-hidden text-ellipsis whitespace-nowrap">Blog</span>
-                      <svg xmlns="http://www.w3.org/2000/svg"
-                        class="arrowIcon w-3 fill-current -rotate-90 ml-auto transition-all duration-500"
-                        viewBox="0 0 451.847 451.847">
-                        <path
-                          d="M225.923 354.706c-8.098 0-16.195-3.092-22.369-9.263L9.27 151.157c-12.359-12.359-12.359-32.397 0-44.751 12.354-12.354 32.388-12.354 44.748 0l171.905 171.915 171.906-171.909c12.359-12.354 32.391-12.354 44.744 0 12.365 12.354 12.365 32.392 0 44.751L248.292 345.449c-6.177 6.172-14.274 9.257-22.369 9.257z"
-                          data-original="#000000" />
-                      </svg>
-                    </a>
-                    
-                  </li>
 
                   <li>
-                    <a href="javascript:void(0)"
-                      class="text-orange-500/50 text-[15px] font-medium flex items-center cursor-pointer hover:bg-orange-500/50  hover:text-white/80 rounded-md px-3 py-2.5 transition-all duration-300">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-[18px] h-[18px] mr-3"
-                        viewBox="0 0 25 25">
-                        <g data-name="Action Expand">
-                          <path
-                            d="M21.5 1.25h-18A2.25 2.25 0 0 0 1.25 3.5v18a2.25 2.25 0 0 0 2.25 2.25h18a2.25 2.25 0 0 0 2.25-2.25v-18a2.25 2.25 0 0 0-2.25-2.25zm.75 20.25a.75.75 0 0 1-.75.75h-18a.75.75 0 0 1-.75-.75v-18a.75.75 0 0 1 .75-.75h18a.75.75 0 0 1 .75.75z"
-                            data-original="#000000" />
-                          <path d="M11.75 7.25h1.5v10.5h-1.5z" data-original="#000000" />
-                          <path d="M7.25 11.75h10.5v1.5H7.25z" data-original="#000000" />
-                        </g>
-                      </svg>
-                      <span class="overflow-hidden text-ellipsis whitespace-nowrap">Teams</span>
-                      <svg xmlns="http://www.w3.org/2000/svg"
-                        class="arrowIcon w-3 fill-current -rotate-90 ml-auto transition-all duration-500"
-                        viewBox="0 0 451.847 451.847">
-                        <path
-                          d="M225.923 354.706c-8.098 0-16.195-3.092-22.369-9.263L9.27 151.157c-12.359-12.359-12.359-32.397 0-44.751 12.354-12.354 32.388-12.354 44.748 0l171.905 171.915 171.906-171.909c12.359-12.354 32.391-12.354 44.744 0 12.365 12.354 12.365 32.392 0 44.751L248.292 345.449c-6.177 6.172-14.274 9.257-22.369 9.257z"
-                          data-original="#000000" />
-                      </svg>
+                    <a href=""
+                      class="text-orange-500/50 text-[18px] font-medium flex items-center cursor-pointer hover:bg-orange-500/50 hover:text-white/80 rounded-md px-3 py-2.5 transition-all duration-300">
+                      <i class="fa-solid fa-photo-film w-[18px] h-[18px] mr-3"></i>
+                      <span class="overflow-hidden text-ellipsis whitespace-nowrap">Ana Səhifə</span>
+                    </a>
+                    
+                  </li>
+  
+                  <li>
+                    <a href="" class="text-orange-500/50 text-[18px] font-medium flex items-center cursor-pointer hover:bg-orange-500/50  hover:text-white/80 rounded-md px-3 py-2.5 transition-all duration-300">
+                      <i class="fa-regular fa-newspaper w-[18px] h-[18px] mr-3"></i>
+                      <span class="overflow-hidden text-ellipsis whitespace-nowrap">Xəbərlər</span>
                     </a>
                   </li>
+  
+                  <li>
+                    <a href=""
+                      class="text-orange-500/50 text-[18px] font-medium flex items-center cursor-pointer hover:bg-orange-500/50  hover:text-white/80 rounded-md px-3 py-2.5 transition-all duration-300">
+                      <i class="fa-regular fa-circle-user w-[18px] h-[18px] mr-3"></i>
+                      <span class="overflow-hidden text-ellipsis whitespace-nowrap">Profil</span>
+                    </a>
+                  </li>
+
                 </ul>
               </div>
             </div>
@@ -173,8 +58,7 @@
             <!-- MOBILE TOP BAR -->
             <div
               class="fixed top-0 left-0 w-full h-[70px] lg:hidden z-50 bg-cover bg-center relative"
-              style="background-image: url('https://i.pinimg.com/1200x/56/51/81/565181f6b45c563cd51d8fde3f9568f3.jpg');"
-            >
+              style="background-image: url('https://i.pinimg.com/1200x/56/51/81/565181f6b45c563cd51d8fde3f9568f3.jpg');">
               <div class="absolute inset-0 bg-black/70"></div>
             
               <h1 class="absolute left-4 top-1/2 -translate-y-1/2 text-white/70 font-bold text-[25px] z-10">
@@ -182,27 +66,23 @@
               </h1>
             
               <button  onclick="toggleSidebarMenu()"
-              class="absolute right-4 top-1/2 -translate-y-1/2 bg-[#081028] px-3 py-1 rounded-lg text-white z-10"
-              >
+              class="absolute right-4 top-1/2 -translate-y-1/2 bg-[#081028] px-3 py-1 rounded-lg text-white/80 z-10">
                 <i class="fa-solid fa-bars"></i>
               </button>
             </div>
             
             <!-- DESKTOP HEADER -->
-            <header class="sticky top-0 px-6 z-40 bg-[#0f172b] pt-2 sm:mt-0">
-              <div class="flex items-center px-6 py-4 bg-orange-500/50 shadow-md rounded-md lg:mt-7">
+            <header class="sticky top-0 px-6 z-40 bg-[#0f172b] pt-4 sm:mt-0">
+              <div class="flex items-center px-6 py-2 bg-orange-500/50 shadow-md rounded-md lg:mt-7">
             
                 <div class="flex items-center w-full ">
                   <div class="flex items-center gap-4 w-full">
             
 
                     <div class="flex items-center gap-3 w-full">
-                      <svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 192.904 192.904"
-                        class="w-5 fill-white/80">
-                        <path d="m190.707 180.101-47.078-47.077c11.702-14.072..." />
-                      </svg>
-                      <input type="text" placeholder="Search something..." class="w-full text-sm bg-transparent outline-none text-white/80 " />
+                      <i class="fa-solid fa-magnifying-glass w-5 text-white/80 text-xl"></i>
+                      
+                      <input type="text" placeholder="Search something..." class="w-full p-2 text-sm bg-transparent outline-none text-white/80 " />
                     </div>
                   </div>
                 </div>
@@ -212,16 +92,9 @@
             <div class="my-6 px-6">
               <div class="flex justify-between gap-6 flex-wrap items-center  ml-auto">
                 <h1 id="panelName" class="font-bold text-white/80">Dashboard/</h1>
-                <div onclick="CloseButton()" class="flex items-center space-x-6 gap-3 p-3 rounded-md bg-orange-500/50 font-bold text-white/80 hover:cursor-pointer">
-                  Əlavə et
-                   <svg xmlns="http://www.w3.org/2000/svg"
-                     class="w-5 h-5 cursor-pointer fill-white/80 font-bold" viewBox="0 0 24 24">
-                     <path
-                       d="M18 2c2.206 0 4 1.794 4 4v12c0 2.206-1.794 4-4 4H6c-2.206 0-4-1.794-4-4V6c0-2.206 1.794-4 4-4zm0-2H6a6 6 0 0 0-6 6v12a6 6 0 0 0 6 6h12a6 6 0 0 0 6-6V6a6 6 0 0 0-6-6z"
-                       data-original="#000000" />
-                     <path d="M12 18a1 1 0 0 1-1-1V7a1 1 0 0 1 2 0v10a1 1 0 0 1-1 1z" data-original="#000000" />
-                     <path d="M6 12a1 1 0 0 1 1-1h10a1 1 0 0 1 0 2H7a1 1 0 0 1-1-1z" data-original="#000000" />
-                   </svg>
+                <div onclick="CloseButton()" class="flex items-center   gap-2 p-3 rounded-md bg-orange-500/50 font-bold text-white/80 hover:cursor-pointer">
+                  <i class="fa-solid fa-plus w-5 h-5 cursor-pointer text-white/80 font-bold"></i>
+                      Əlavə et 
                  </div>
 
                  <!-- main - TABLE -->
