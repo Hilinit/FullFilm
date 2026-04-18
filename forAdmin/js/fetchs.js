@@ -3,35 +3,6 @@ let News_API = `https://69b99a1ce69653ffe6a8318b.mockapi.io/news`
 
 let dataCount = document.getElementById('dataCount')
 
-// const title = document.getElementById('title')
-// const imdbRating = document.getElementById('imdbRating')
-// const description = document.getElementById('description')
-// const genre = document.getElementById('genre')
-// const typeValue = document.querySelector('input[name="filmType"]:checked').value
-// const director = document.getElementById('director')
-// const cast = document.getElementById('cast')
-// const scenario = document.getElementById('scenario')
-// const poster = document.getElementById('poster')
-// const duration = document.querySelector('#filmDuration input').value
-// const serialInputs = document.querySelectorAll('#serialInfo input')
-// const seasons = serialInputs[0].value
-// const episodes = serialInputs[1].value
-
-
-
-// const data = {
-//   title: title.value,
-//   imdbRating: imdbRating.value,
-//   description: description.value,
-//   genre: genre.value,
-//   type: typeValue,
-//   director: director.value,
-//   cast: cast.value,
-//   scenario: scenario.value,
-//   details: detailsValue,
-//   poster: poster.value || "default-url"
-// }
-
 const title = document.getElementById('title')
 const imdbRating = document.getElementById('imdbRating')
 const description = document.getElementById('description')
@@ -40,14 +11,11 @@ const director = document.getElementById('director')
 const cast = document.getElementById('cast')
 const scenario = document.getElementById('scenario')
 const poster = document.getElementById('poster')
-const duration = document.querySelector('#filmDuration input').value
 const serialInputs = document.querySelectorAll('#serialInfo input')
-const seasons = serialInputs[0].value
-const episodes = serialInputs[1].value
+
 
 function collectData() {
   const type = document.querySelector('input[name="filmType"]:checked')?.value
-
   const filmDuration = document.querySelector('#filmDuration input')
   const serialInputs = document.querySelectorAll('#serialInfo input')
 
@@ -83,7 +51,6 @@ function submitData() {
   })
 }
 
-
 let allData = []
 
 function allDatas() {
@@ -99,12 +66,7 @@ allDatas()
 let table = document.getElementById("table")
 function getData() {
   table.innerHTML = ""
-
-
-  dataCount.innerHTML = allData.length
-  ? `Bazada ${allData.length} məlumat var:`
-  : `Bazada Məlumat yoxdur!`
-
+  dataCount.innerHTML = allData.length ? `Bazada ${allData.length} məlumat var:` : `Bazada Məlumat yoxdur!`
 
   allData.map(item => {
     table.innerHTML += `
@@ -130,17 +92,14 @@ function getData() {
      
       <td class="p-2">
         <button onclick="doubleClick(${item.id})" class="mr-4" title="Edit">
-        <i class="fa-regular fa-pen-to-square w-5 text-blue-500 hover:text-blue-700"></i>
-          
+        <i class="fa-regular fa-pen-to-square w-5 text-blue-500 hover:text-blue-700"></i>     
         </button>
         <button onclick="deleteItem(${item.id})" class="mr-4" title="Delete">
-        <i class="fa-regular fa-trash-can w-5 text-red-500 hover:text-red-700"></i>
-          
+        <i class="fa-regular fa-trash-can w-5 text-red-500 hover:text-red-700"></i>      
         </button>
       </td>
     </tr>`
   })
-
 }
 
 //------------------------------------------------------------------
@@ -191,8 +150,10 @@ function updateItem() {
     method: "PUT",
     body: JSON.stringify(data),
     headers: { "Content-type": "application/json" }
-  }).then(() => { allDatas()})
-  selectedId = null
+  }).then(() => 
+    { allDatas()
+      let selectedId = null;
+    })
 }
 
 
@@ -203,40 +164,34 @@ function doubleClick(id) {
 
 function addOrUpdate() {
   const btn = document.getElementById('btn')
-  btn.innerHTML = `Təstiq et`
   if (selectedId) {
-
     updateItem();
     setTimeout(() => {
       btn.innerHTML = `<i class="fa-solid fa-spinner"></i>`
     });
-
     setTimeout(() => {
       btn.innerHTML = `Yeniləndi!`
     }, 500);
-
     setTimeout(() => {
       document.getElementById('modal').style.display = 'none'
     }, 1000);
+  } 
 
-  } else {
+  else {
     submitData();
-
     setTimeout(() => {
       btn.innerHTML = `<i class="fa-solid fa-spinner"></i>`
     });
-
     setTimeout(() => {
       btn.innerHTML = `Əlavə Edildi!`
     }, 500);
-
     btn.innerHTML = `<i class="fa-solid fa-spinner"></i>`
     setTimeout(() => {
       document.getElementById('modal').style.display = 'none'
     }, 1000);
   }
+  btn.innerHTML = `Təstiq et`
 }
-
 
 //---------------------------------------
 function deleteItem(id) {
@@ -250,7 +205,6 @@ function deleteItem(id) {
       getData();
     });
 }
-
 
 //------------------------------------------------------------------
 
