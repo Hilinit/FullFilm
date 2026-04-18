@@ -137,15 +137,13 @@ function findItem(id) {
 
     serialInfo.classList.remove('hidden')
     filmDuration.classList.add('hidden')
-  }
-  
+  } 
 }
 
 function updateItem() {
   if (!selectedId) return
 
   const data = collectData()
-
   fetch(`${Base_API}/${selectedId}`, {
     method: "PUT",
     body: JSON.stringify(data),
@@ -155,7 +153,6 @@ function updateItem() {
       let selectedId = null;
     })
 }
-
 
 function doubleClick(id) {
   findItem(id)
@@ -198,7 +195,6 @@ function deleteItem(id) {
   fetch(`${Base_API}/${id}`, {
     method: "DELETE"
   })
-
     // silindikden sonra data-ni yenile
     .then(() => {
       allData = allData.filter(item => item.id != id);

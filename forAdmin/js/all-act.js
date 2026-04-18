@@ -13,7 +13,6 @@ function toggleTypeFields() {
   }
 }
 
-
 //----------------------------------Dashboard---------------------------------------------------
 let modal = document.getElementById('modal');
 
@@ -27,8 +26,6 @@ let sidebar = document.getElementById("sidebar");
 function toggleSidebarMenu() {
   sidebar.classList.toggle("hidden");
 }
-
-
 
 //------------------------------------LOGIN-------------------------------------------------
 

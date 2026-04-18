@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
@@ -60,30 +61,34 @@
 
 
         <div class="space-y-2 mt-6 ">
-           
-            <div onclick="doubleClick()"  class="text-gray-300 text-sm font-medium flex items-center cursor-pointer hover:bg-[#0b1739] rounded-md px-3 py-2.5 transition-all duration-300">
-              <i class="fa-solid fa-photo-film w-[18px] h-[18px] mr-3"></i>
-              <span class="overflow-hidden text-ellipsis whitespace-nowrap">Janr Seç</span> 
-              <i class="fa-regular fa-hand-pointer  w-2.5 h-2.5 fill-current text-[18px] rotate-0 ml-auto transition-all duration-500"></i> 
-            </div>
 
-            
-              <!-- click-drop -->
-            <ul id="genre" style="display:none" class="sub-menu  transition-[max-height] duration-500 ease-in-out ml-8">
+          <div onclick="doubleClick()"
+            class="text-gray-300 text-sm font-medium flex items-center cursor-pointer hover:bg-[#0b1739] rounded-md px-3 py-2.5 transition-all duration-300">
+            <i class="fa-solid fa-photo-film w-[18px] h-[18px] mr-3"></i>
+            <span class="overflow-hidden text-ellipsis whitespace-nowrap">Janr Seç</span>
+            <i
+              class="fa-regular fa-hand-pointer  w-2.5 h-2.5 fill-current text-[18px] rotate-0 ml-auto transition-all duration-500"></i>
+          </div>
 
-            </ul>
+
+          <!-- click-drop -->
+          <ul id="genre" style="display:none" class="sub-menu  transition-[max-height] duration-500 ease-in-out ml-8">
+
+          </ul>
           <hr class="border-gray-600 my-6" />
 
 
-          <div> 
-            <div onclick="getNews(allNews)" class="text-gray-300 text-sm font-medium flex items-center cursor-pointer hover:bg-[#0b1739] rounded-md px-3 py-2.5 transition-all duration-300">
-           
-            <i class="fa-regular fa-newspaper w-[18px] h-[18px] mr-3"></i>
-            <span class="overflow-hidden text-ellipsis whitespace-nowrap">Xəbərlərə Bax</span> 
-            <i class="fa-regular fa-hand-pointer text-[18px] w-2.5 h-2.5 fill-current rotate-0 ml-auto transition-all duration-500"></i>
-          </div>
+          <div>
+            <div onclick="getNews(allNews)"
+              class="text-gray-300 text-sm font-medium flex items-center cursor-pointer hover:bg-[#0b1739] rounded-md px-3 py-2.5 transition-all duration-300">
 
-        </div>
+              <i class="fa-regular fa-newspaper w-[18px] h-[18px] mr-3"></i>
+              <span class="overflow-hidden text-ellipsis whitespace-nowrap">Xəbərlərə Bax</span>
+              <i
+                class="fa-regular fa-hand-pointer text-[18px] w-2.5 h-2.5 fill-current rotate-0 ml-auto transition-all duration-500"></i>
+            </div>
+
+          </div>
         </div>
       </div>
     </nav>
@@ -149,12 +154,13 @@
           </div>
         </div>
       </div>
-    <div>
-        <div id="title" class="w-full text-[40px] text-orange-500 font-black mt-6 text-center text-transform: capitalize">
+      <div>
+        <div id="title"
+          class="w-full text-[40px] text-orange-500 font-black mt-6 text-center text-transform: capitalize">
           Bütün Janrlar
         </div>
 
-       <!-- Not Found 404 -->
+        <!-- Not Found 404 -->
         <div class="bg-slate-900  w-full" id="display"></div>
 
         <!-- Cards -->
@@ -165,13 +171,14 @@
           </div>
 
         </div>
+      </div>
+
+      <!-- News -->
+      <div id="news"> </div>
+
     </div>
 
-    <!-- News -->
-    <div id="news"> </div>
-  
-    </div>
-  
   </body>
   <script src="index.js"></script>
+
 </html>
