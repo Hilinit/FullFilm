@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
@@ -10,7 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
       integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
-
   </head>
 
   <body class="bg-[#0f172b] flex ">
@@ -63,7 +61,7 @@
 
         <div class="space-y-2 mt-6 ">
            
-            <div onclick="showGenre()" class="text-gray-300 text-sm font-medium flex items-center cursor-pointer hover:bg-[#0b1739] rounded-md px-3 py-2.5 transition-all duration-300">
+            <div onclick="doubleClick()"  class="text-gray-300 text-sm font-medium flex items-center cursor-pointer hover:bg-[#0b1739] rounded-md px-3 py-2.5 transition-all duration-300">
               <i class="fa-solid fa-photo-film w-[18px] h-[18px] mr-3"></i>
               <span class="overflow-hidden text-ellipsis whitespace-nowrap">Janr Seç</span> 
               <i class="fa-regular fa-hand-pointer  w-2.5 h-2.5 fill-current text-[18px] rotate-0 ml-auto transition-all duration-500"></i> 
@@ -77,12 +75,13 @@
           <hr class="border-gray-600 my-6" />
 
 
-          <div> <div  class="text-gray-300 text-sm font-medium flex items-center cursor-pointer hover:bg-[#0b1739] rounded-md px-3 py-2.5 transition-all duration-300">
+          <div> 
+            <div onclick="getNews(allNews)" class="text-gray-300 text-sm font-medium flex items-center cursor-pointer hover:bg-[#0b1739] rounded-md px-3 py-2.5 transition-all duration-300">
            
             <i class="fa-regular fa-newspaper w-[18px] h-[18px] mr-3"></i>
             <span class="overflow-hidden text-ellipsis whitespace-nowrap">Xəbərlərə Bax</span> 
             <i class="fa-regular fa-hand-pointer text-[18px] w-2.5 h-2.5 fill-current rotate-0 ml-auto transition-all duration-500"></i>
-          </di>
+          </div>
 
         </div>
         </div>
@@ -155,19 +154,24 @@
           Bütün Janrlar
         </div>
 
-        <!-- Cards -->
+       <!-- Not Found 404 -->
         <div class="bg-slate-900  w-full" id="display"></div>
+
+        <!-- Cards -->
         <div class="bg-slate-900 p-4 w-full flex justify-center ">
 
-          <div id="Cards" class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mt-4">
+          <div id="Cards" class="max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-6 mt-4">
             <!-- Card  -->
           </div>
+
         </div>
     </div>
 
-  </body>
-
-  <script src="index.js"></script>
+    <!-- News -->
+    <div id="news"> </div>
   
-
+    </div>
+  
+  </body>
+  <script src="index.js"></script>
 </html>

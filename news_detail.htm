@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FullFilm - Detallar</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#0f172b]">
+  <div id="detailData">
+    <div class="flex flex-col justify-center items-center h-screen gap-4">
+        <img src="loading.png" alt="loading" class="w-16 h-16">
+        <p class="text-orange-500 text-[20px] font-bold">Detallar yüklənir...</p>
+    </div>
+      
+  </div>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script>
+    function slugTitle(title){
+        return title
+        .toLowerCase()
+        .trim()
+        .normalize('NFD')
+        .replace(/\s+/g, '-')
+        .replace(/[^\w\-]+/g, '')
+      
+      }
+    Base_API = `https://69b99a1ce69653ffe6a8318b.mockapi.io/moveData`
+    const detailData = document.getElementById('detailData');
+    const params = new URLSearchParams(window.location.search);
+    const slugName = params.get('name');
+
+        fetch(Base_API)
+            .then(res =>  res.json())
+            .then(data => {
+
+                const name = data.find(item => slugTitle(item.title) === slugName)
+                
+                detailData.innerHTML = `
+                <div class="bg-[#0f172b] min-h-screen py-10">
+                    <div class="p-4 lg:max-w-7xl max-w-4xl mx-auto">
+                        <div class="grid items-start grid-cols-1 lg:grid-cols-5 gap-12 shadow-lg p-6 rounded-lg border border-gray-100">
+                            <div class="lg:col-span-2 w-auto lg:sticky top-6">
+                                <div class="rounded-lg overflow-hidden shadow-md">
+                                    <img src="${name.poster}" alt="${name.title}" class="w-auto h-[400px]  lg:h-[600px] w-full" />
+                                </div>
+                            </div>
+                            
+                            <div class="lg:col-span-3 m-auto ">
+                                <h3 class="text-6xl font-bold  mb-2 text-orange-500">${name.title}</h3>
+                                
+                                <div class="flex flex-col space-y-2 mb-6 text-slate-600">
+                                    <p><span class="font-semibold text-slate-100">Janr:</span> ${name.genre}</p>
+                                    <p><span class="font-semibold text-yellow-600">IMDB:</span> ${name.imdbRating}</p>
+                                    <p><span class="font-semibold text-slate-100">Rejissor:</span> ${name.director}</p>
+                                    <p><span class="font-semibold text-slate-100">Baş Rollarda:</span> ${name.cast}</p>
+                                </div>
+
+                                <div class="border-t border-orange-500 pt-4">
+                                    <h4 class="text-lg font-semibold text-slate-100 mb-2">Ssenari:</h4>
+                                    <p class="text-base leading-relaxed text-slate-400">${name.scenario}</p>
+                                </div>
+
+                                <div class="mt-8">
+                                    <span class="inline-block bg-orange-500 text-slate-100 px-4 py-2 rounded-full text-sm font-medium uppercase tracking-wide">
+                                        ${name.type === "film" ? "Film" : "Serial"} 
+                                        <span class="mx-2">|</span>
+                                        ${name.type === "film" 
+                                            ? `${name.details.duration} dəqiqə` 
+                                            : `${name.details.seasons} sezon ${name.details.episodes} bölüm`}
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+            })
+  </script>
+</body>
+</html>

@@ -41,10 +41,11 @@
                   </li>
   
                   <li>
-                    <a href=""
+                    <a href="window.location.href = ../../../../index.html"
                       class="text-orange-500/50 text-[18px] font-medium flex items-center cursor-pointer hover:bg-orange-500/50  hover:text-white/80 rounded-md px-3 py-2.5 transition-all duration-300">
-                      <i class="fa-regular fa-circle-user w-[18px] h-[18px] mr-3"></i>
-                      <span class="overflow-hidden text-ellipsis whitespace-nowrap">Profil</span>
+                      <i class="fa-solid fa-right-to-bracket w-[18px] h-[18px] mr-3"></i>
+
+                      <span class="overflow-hidden text-ellipsis whitespace-nowrap">Səhifəyə keç</span>
                     </a>
                   </li>
 
@@ -72,7 +73,7 @@
             </div>
             
             <!-- DESKTOP HEADER -->
-            <header class="sticky top-0 px-6 z-40 bg-[#0f172b] pt-4 sm:mt-0">
+            <header class="sticky top-0 px-6 lg:pr-6 z-40 bg-[#0f172b] pt-4 sm:mt-0">
               <div class="flex items-center px-6 py-2 bg-orange-500/50 shadow-md rounded-md lg:mt-7">
             
                 <div class="flex items-center w-full ">
@@ -89,88 +90,69 @@
               </div>
             </header>
 
-            <div class="my-6 px-6">
+            <div class="my-6 px-6 lg:pr-6">
               <div class="flex justify-between gap-6 flex-wrap items-center  ml-auto">
                 <h1 id="panelName" class="font-bold text-white/80">Dashboard/</h1>
+                
                 <div onclick="CloseButton()" class="flex items-center   gap-2 p-3 rounded-md bg-orange-500/50 font-bold text-white/80 hover:cursor-pointer">
                   <i class="fa-solid fa-plus w-5 h-5 cursor-pointer text-white/80 font-bold"></i>
                       Əlavə et 
                  </div>
+                 
 
                  <!-- main - TABLE -->
 
                 <section class="main-content w-full overflow-auto rounded-md">
+                  <h2 id="dataCount" class="font-bold text-white/80"></h2>
                     <div class="flex ">
-                      <table class="min-w-full bg-[#0b1739] ">
+                      <table class="min-w-full bg-[#0b1739] shadow-lg border ">
 
-                        <thead class="bg-orange-500/50 whitespace-nowrap">
+                        <thead class="bg-orange-500/50 ">
                           <tr>
-                            <th class="p-4 text-left text-sm font-medium text-white/80">
+                            <th  class="p-2 text-left text-sm font-medium text-white/80">
+                              ID
+                            </th>
+                            <th  class=" text-left text-sm font-medium text-white/80">
                               Adı
                             </th>
-                            <th class="p-4 text-left text-sm font-medium text-white/80">
+                            <th class=" text-left text-sm font-medium text-white/80">
                               Janr
                             </th>
-                            <th class="p-4 text-left text-sm font-medium text-white/80">
+                            <th class="text-left text-sm font-medium text-white/80">
+                              Rejissor
+                            </th>
+                            <th  class=" text-left text-sm font-medium text-white/80">
                               IMDB Reytinq 
                             </th>
 
-                            <th class="p-4 text-left text-sm font-medium text-white/80">
+                            <th class="p-2   text-left text-sm font-medium text-white/80">
                               Tipi
                             </th>
 
                             
-                            <th class="p-4 text-left text-sm font-medium text-white/80">
-                              Digər Məlumatlar
-                            </th>
+                           
                             
-                            <th class="p-4 text-left text-sm font-medium text-white/80">
+                            <th class="p-2 text-left text-sm font-medium text-white/80">
                               Redaktə et
                             </th>
                           </tr>
                         </thead>
         
-                        <tbody class="whitespace-nowrap">
-                          <tr class="even:bg-blue-50">
-                            <td class="p-4 text-sm text-white/80">
-                              John Doe
-                            </td>
-                            <td class="p-4 text-sm text-white/80">
-                              john@example.com
-                            </td>
-                            <td class="p-4 text-sm text-white/80">
-                              Admin
-                            </td>
-                            <td class="p-4 text-sm text-white/80">
-                              2022-05-15
-                            </td>
-                            <td class="p-4 text-sm text-white/80">
-                              2022-05-15
-                            </td>
-                            <td class="p-4">
-                              <button class="mr-4" title="Edit">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 fill-blue-500 hover:fill-blue-700"
-                                  viewBox="0 0 348.882 348.882">
-                                  <path
-                                    d="m333.988 11.758-.42-.383A43.363 43.363 0 0 0 304.258 0a43.579 43.579 0 0 0-32.104 14.153L116.803 184.231a14.993 14.993 0 0 0-3.154 5.37l-18.267 54.762c-2.112 6.331-1.052 13.333 2.835 18.729 3.918 5.438 10.23 8.685 16.886 8.685h.001c2.879 0 5.693-.592 8.362-1.76l52.89-23.138a14.985 14.985 0 0 0 5.063-3.626L336.771 73.176c16.166-17.697 14.919-45.247-2.783-61.418zM130.381 234.247l10.719-32.134.904-.99 20.316 18.556-.904.99-31.035 13.578zm184.24-181.304L182.553 197.53l-20.316-18.556L294.305 34.386c2.583-2.828 6.118-4.386 9.954-4.386 3.365 0 6.588 1.252 9.082 3.53l.419.383c5.484 5.009 5.87 13.546.861 19.03z"
-                                    data-original="#000000" />
-                                  <path
-                                    d="M303.85 138.388c-8.284 0-15 6.716-15 15v127.347c0 21.034-17.113 38.147-38.147 38.147H68.904c-21.035 0-38.147-17.113-38.147-38.147V100.413c0-21.034 17.113-38.147 38.147-38.147h131.587c8.284 0 15-6.716 15-15s-6.716-15-15-15H68.904C31.327 32.266.757 62.837.757 100.413v180.321c0 37.576 30.571 68.147 68.147 68.147h181.798c37.576 0 68.147-30.571 68.147-68.147V153.388c.001-8.284-6.715-15-14.999-15z"
-                                    data-original="#000000" />
-                                </svg>
-                              </button>
-                              <button class="mr-4" title="Delete">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 fill-red-500 hover:fill-red-700"
-                                  viewBox="0 0 24 24">
-                                  <path
-                                    d="M19 7a1 1 0 0 0-1 1v11.191A1.92 1.92 0 0 1 15.99 21H8.01A1.92 1.92 0 0 1 6 19.191V8a1 1 0 0 0-2 0v11.191A3.918 3.918 0 0 0 8.01 23h7.98A3.918 3.918 0 0 0 20 19.191V8a1 1 0 0 0-1-1Zm1-3h-4V2a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v2H4a1 1 0 0 0 0 2h16a1 1 0 0 0 0-2ZM10 4V3h4v1Z"
-                                    data-original="#000000" />
-                                  <path d="M11 17v-7a1 1 0 0 0-2 0v7a1 1 0 0 0 2 0Zm4 0v-7a1 1 0 0 0-2 0v7a1 1 0 0 0 2 0Z"
-                                    data-original="#000000" />
-                                </svg>
-                              </button>
+                        <tbody id="table" >
+
+                        
+                              
+                          <tr>
+                            <td colspan="100%">
+                              <div class="flex flex-col justify-center items-center h-170 gap-4">
+                                <img src="../../loading.png" alt="loading" class="w-16 h-16">
+                                <p class="text-orange-500 text-[20px] font-bold">
+                                  data yüklənir...
+                                </p>
+                              </div>
                             </td>
                           </tr>
+                          
         
                         </tbody>
                       </table>
@@ -206,28 +188,28 @@
                         </svg>
                     </div>
 
-                    <form class="space-y-4 mt-2 ">
+                  <form class="space-y-4 mt-2 ">
               
                       <div class="grid grid-cols-2 gap-4">
                           <div>
                               <label class="text-white/80 text-sm mb-2 block">Ad</label>
-                              <input type="text" placeholder="Film/Serial adı"
+                              <input id="title" type="text" placeholder="Film/Serial adı"
                                   class="px-4 py-3 bg-[#081028] w-full text-orange-500 text-sm border-none focus:outline-orange-500/50 focus:bg-transparent rounded-lg" />
                           </div>
                           <div>
                               <label class="text-white/80 text-sm mb-2 block">Janr</label>
-                              <input type="text" placeholder="Dram, Komedi..."
+                              <input id="genre" type="text" placeholder="Dram, Komedi..."
                                   class="px-4 py-3 bg-[#081028] w-full text-orange-500 text-sm border-none focus:outline-orange-500/50 focus:bg-transparent rounded-lg" />
                           </div>
                           <div>
                               <label class="text-white/80 text-sm mb-2 block">Rejissor</label>
-                              <input type="text" placeholder="Rejissor adı"
+                              <input type="text" id="director" placeholder="Rejissor adı"
                                   class="px-4 py-3 bg-[#081028] w-full text-orange-500 text-sm border-none focus:outline-orange-500/50 focus:bg-transparent rounded-lg" />
                           </div>
 
                           <div>
                             <label class="text-white/80 text-sm mb-2 block">Baş Rollarda</label>
-                            <input type="text" placeholder="Baş rol Aktyorlar"
+                            <input type="text" id="cast" placeholder="Baş rol Aktyorlar"
                                 class="px-4 py-3 bg-[#081028] w-full text-orange-500 text-sm border-none focus:outline-orange-500/50 focus:bg-transparent rounded-lg" />
                           </div>
                       </div>
@@ -236,7 +218,7 @@
 
                       <div>
                         <label class="text-white/80 text-sm mb-2 block">Təsvir</label>
-                        <input type="text" placeholder="Təsvir yazın"
+                        <input id="description" type="text" placeholder="Təsvir yazın"
                             class="px-4 py-3 bg-[#081028] w-full text-orange-500 text-sm border-none focus:outline-orange-500/50 focus:bg-transparent rounded-lg" />
                       </div>
                   
@@ -245,12 +227,12 @@
                           <div class="flex gap-3">
                             <label class="text-white/80 text-sm mb-1 block">Tipi:</label>
                               <label class="flex items-center cursor-pointer">
-                                  <input type="radio" name="filmType" value="film" checked onchange="toggleTypeFields()"
+                                  <input type="radio" id="type" name="filmType" value="film" checked onchange="toggleTypeFields()"
                                       class="w-4 h-4 accent-orange-500/50" />
                                   <span class="text-white/80 text-sm ml-2">Film</span>
                               </label>
                               <label class="flex items-center cursor-pointer">
-                                  <input type="radio" name="filmType" value="serial" onchange="toggleTypeFields()"
+                                  <input type="radio" id="type" name="filmType" value="serial" onchange="toggleTypeFields()"
                                       class="w-4 h-4 accent-orange-500/50" />
                                   <span class="text-white/80 text-sm ml-2">Serial</span>
                               </label>
@@ -280,7 +262,7 @@
                          
                       <div>
                           <label class="text-white/80 text-sm mb-2 block">Ssenari</label>
-                          <textarea placeholder="Məzmun haqqında..."
+                          <textarea id="scenario" placeholder="Məzmun haqqında..."
                               class="px-4 py-3 bg-[#081028] w-full text-orange-500 text-sm border-none focus:outline-orange-500/50 focus:bg-transparent rounded-lg"
                               rows="3"></textarea>
                       </div>
@@ -289,24 +271,25 @@
                       <div class="grid grid-cols-2 gap-4">
                           <div>
                               <label class="text-white/80 text-sm mb-2 block">IMDB Reytinq</label>
-                              <input type="number" placeholder="1-10" min="1" max="10" step="0.1"
+                              <input id="imdbRating" type="number" placeholder="1-10" min="1" max="10" step="0.1"
                                   class="px-4 py-3 bg-[#081028] w-full text-orange-500 text-sm border-none focus:outline-orange-500/50 focus:bg-transparent rounded-lg" />
                           </div>
                           <div>
                               <label class="text-white/80 text-sm mb-2 block">Poster</label>
-                              <input type="file" accept="image/*"
+                              <input type="text" accept="image/*" id="poster"
                                   class="px-4 py-3 bg-[#081028] w-full text-orange-500 text-sm border-none focus:outline-orange-500/50 focus:bg-transparent rounded-lg" />
                           </div>
                       </div>
                   
                   
                       <div class="flex gap-4 !mt-4">
-                          <button type="button"
+                          <button id="btn" type="button" onclick="addOrUpdate()"
                               class="px-6 py-3 rounded-lg cursor-pointer text-white/80 text-sm font-medium border-none outline-none tracking-wide bg-orange-500/50 hover:bg-orange-500/70 transition">Təstiq et</button>
                           <button id="closeButton" type="button" onclick="CloseButton()"
                               class="px-6 py-3 rounded-lg cursor-pointer text-orange-500 text-sm font-medium border-none outline-none tracking-wide bg-gray-200 hover:bg-gray-300 transition">Ləğv et</button>
                       </div>
                   </form>
+                  
                 </div>
             </div>
         </div>
@@ -315,5 +298,6 @@
 
 
 <script src="../js/all-act.js"></script>
+<script src="../js/fetchs.js"></script>
 </body>
 </html>

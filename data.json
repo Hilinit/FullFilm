@@ -1,0 +1,1131 @@
+[
+    {
+      "id": "1",
+      "title": "Breaking Bad",
+      "imdbRating": 9.5,
+      "genre": [
+        "Cinayət",
+        "Drama"
+      ],
+      "type": "serial",
+      "director": "Vince Gilligan",
+      "cast": [
+        "Bryan Cranston",
+        "Aaron Paul",
+        "Anna Gunn"
+      ],
+      "scenario": "Walter White, orta məktəbdə çalışan dahi, lakin taleyi gətirməyən bir kimya müəllimidir. 50 yaşında ağciyər xərçəngi olduğunu öyrənəndə, ölümündən sonra hamilə həyat yoldaşı və əlil oğlu üçün pul qoyub getmək qərarına gəlir. O, köhnə tələbəsi Jesse Pinkman ilə birləşərək yüksək keyfiyyətli metamfetamin istehsal etməyə başlayır. Lakin bu yol onu sadə bir ailə başçısından qəddar bir narkobaron olan 'Heisenberg'ə çevirir və o, həm hüquq-mühafizə orqanları, həm də Meksika kartelləri ilə mübarizə aparmalı olur.",
+      "details": {
+        "seasons": 5,
+        "episodes": 62
+      },
+      "poster": "https://i.pinimg.com/736x/6d/95/92/6d9592440f051f7affd997866c3a1a68.jpg",
+      "description": "Müəllim Walter White narkotik biznesinə girərək həyatını dəyişdirir və kriminal aləmin iç üzünü göstərir."
+    },
+    {
+      "id": "2",
+      "title": "The Shawshank Redemption",
+      "imdbRating": 9.3,
+      "genre": [
+        "Drama"
+      ],
+      "type": "film",
+      "director": "Frank Darabont",
+      "cast": [
+        "Tim Robbins",
+        "Morgan Freeman"
+      ],
+      "scenario": "Gənc və uğurlu bankir Endi Düfreyn, arvadını və onun sevgilisini öldürməkdə günahlandırılaraq Şouşenk həbsxanasına göndərilir. Günahsız olduğunu desə də, o, həbsxananın qəddar şərtlərinə öyrəşməli olur. Orada köhnə məhbus Red ilə dostlaşır. İllər keçdikcə Endi intellektindən istifadə edərək həbsxana müdirinin çirkli pullarını yumağa kömək edir, lakin eyni zamanda gizli şəkildə azadlıq üçün inanılmaz bir plan hazırlayır. Bu hekayə səbrin, ümidin və insan ruhunun sarsılmazlığının rəmzidir.",
+      "details": {
+        "duration": 142
+      },
+      "poster": "https://i.pinimg.com/736x/5f/84/b1/5f84b15e50f32d397d80c292c7ec7749.jpg",
+      "description": "Həbsxanada ədalətsiz yerə düşən bir kişinin azadlığa aparan yolunu izləyirik."
+    },
+    {
+      "id": "3",
+      "title": "Chernobyl",
+      "imdbRating": 9.3,
+      "genre": [
+        "Tarixi",
+        "Drama"
+      ],
+      "type": "serial",
+      "director": "Johan Renck",
+      "cast": [
+        "Jared Harris",
+        "Stellan Skarsgård",
+        "Emily Watson"
+      ],
+      "scenario": "1986-cı ilin aprelində Çernobıl Nüvə Stansiyasında baş verən dəhşətli partlayışdan dərhal sonra SSRİ rəhbərliyi hadisəni gizlətməyə çalışır. Alim Valeri Leqasov və nazir Boris Şerbina fəlakətin miqyasını anladıqda, Avropanı məhv edə biləcək ikinci bir partlayışın qarşısını almaq üçün canlarını fəda edən minlərlə insanın əməyini təşkil edirlər. Serial, qəzanın texniki səbəbləri ilə yanaşı, sovet bürokratiyasının yalanlarını və həqiqətin gec-tez üzə çıxma xüsusiyyətini dramatik şəkildə təqdim edir.",
+      "details": {
+        "seasons": 1,
+        "episodes": 5
+      },
+      "poster": "https://i.pinimg.com/736x/0a/80/b8/0a80b8bee2b08340437960d6bcc8b047.jpg",
+      "description": "Çernobıl nüvə fəlakətinin səbəblərini və insanlara təsirini dramatik şəkildə göstərir."
+    },
+    {
+      "id": "4",
+      "title": "The Godfather",
+      "imdbRating": 9.2,
+      "genre": [
+        "Cinayət",
+        "Drama"
+      ],
+      "type": "film",
+      "director": "Francis Ford Coppola",
+      "cast": [
+        "Marlon Brando",
+        "Al Pacino",
+        "James Caan"
+      ],
+      "scenario": "İkinci Dünya Müharibəsindən sonra Nyu-Yorkda yaşayan italyan mafiya ailəsi Korleonelərin başçısı Don Vito Korleone sui-qəsdə uğrayır. Ailənin kiçik oğlu Maykl, əvvəlcə atasının cinayət aləmindən uzaq durmaq istəsə də, ailəsini qorumaq üçün bu qanlı müharibəyə girməyə məcbur olur. Mayklın məsum bir gəncdən qəddar və strateji bir 'Xaç atası'na çevrilməsi prosesi, xəyanət, güc və sadiqlik çərçivəsində epik bir dildə anladılır.",
+      "details": {
+        "duration": 175
+      },
+      "poster": "https://i.pinimg.com/1200x/3a/2d/34/3a2d34f0a80d0a462ed5b953df963a3e.jpg",
+      "description": "Mafiya ailəsinin güc, sadiqlik və xəyanət dolu həyatı."
+    },
+    {
+      "id": "5",
+      "title": "Game of Thrones",
+      "imdbRating": 9.2,
+      "genre": [
+        "Fantastika",
+        "Drama"
+      ],
+      "type": "serial",
+      "director": "David Benioff, D.B. Weiss",
+      "cast": [
+        "Emilia Clarke",
+        "Kit Harington",
+        "Peter Dinklage"
+      ],
+      "scenario": "Vesteros qitəsində yeddi krallıq Dəmir Taxtı ələ keçirmək üçün bir-biri ilə qanlı intriqalara girir. Starklar, Lannisterlər və Barateonlar arasındakı müharibə davam edərkən, dənizin o tayında sürgün edilmiş şahzadə Daenerys Tarqaryen üç əjdahası ilə geri dönməyə hazırlaşır. Lakin hamıdan xəbərsiz, uzaq şimalda buzdan olan qədim bir ordu — Gecə Kralı və onun Ölülər ordusu bütün canlıları məhv etmək üçün yaxınlaşır. Krallıqlar ya birləşməli, ya da hamısı yox olmalıdır.",
+      "details": {
+        "seasons": 8,
+        "episodes": 73
+      },
+      "poster": "https://i.pinimg.com/1200x/67/8f/25/678f25cec1b7a368a308cc840a3607a7.jpg",
+      "description": "Taxt uğrunda intriqalar və fantastik döyüşlər ilə dolu epik səyahət."
+    },
+    {
+      "id": "6",
+      "title": "Sherlock",
+      "imdbRating": 9.1,
+      "genre": [
+        "Cinayət",
+        "Detektiv"
+      ],
+      "type": "serial",
+      "director": "Steven Moffat, Mark Gatiss",
+      "cast": [
+        "Benedict Cumberbatch",
+        "Martin Freeman"
+      ],
+      "scenario": "Ser Artur Konan Doylun klassik qəhrəmanı Şerlok Holms, 21-ci əsrin müasir Londonunda yaşayır. Əfqanıstan müharibəsindən qayıdan həkim Con Vatson ilə tanış olan Şerlok, birlikdə Baker Street 221B ünvanında məskunlaşırlar. Onlar müasir texnologiyanın, internetin və deduktiv məntiqin köməyi ilə London polisinin həll edə bilmədiyi ən mürəkkəb və qəribə cinayətləri araşdırırlar. Şerlokun ən böyük rəqibi, dahi cinayətkar Cim Moriarti isə onun üçün hər addımda ölümcül tələlər qurur.",
+      "details": {
+        "seasons": 4,
+        "episodes": 13
+      },
+      "poster": "https://i.pinimg.com/1200x/39/c6/bf/39c6bff983453edb70f80d82305110c7.jpg",
+      "description": "Dedektiv Sherlock Holmes Londonun ən mürəkkəb cinayətlərini həll edir."
+    },
+    {
+      "id": "7",
+      "title": "The Dark Knight",
+      "imdbRating": 9,
+      "genre": [
+        "Aksiyon",
+        "Cinayət"
+      ],
+      "type": "film",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Christian Bale",
+        "Heath Ledger",
+        "Aaron Eckhart"
+      ],
+      "scenario": "Betmen, prokuror Harvi Dent və komissar Cim Qordonun köməyi ilə Qotem şəhərində mütəşəkkil cinayətkarlığa son qoymağa çox yaxındır. Lakin səhnəyə çıxan Joker adlı xaotik cinayətkar bütün planları alt-üst edir. Jokerin heç bir məqsədi və ya pul həvəsi yoxdur; o, sadəcə dünyanın yandığını görmək istəyir. O, Betmeni mənəvi seçimlər etməyə məcbur edir və Harvi Denti qaranlıq tərəfə çəkir. Bu film, qəhrəmanlıqla canilik arasındakı incə xətti və cəmiyyətin hansı nöqtədə sarsılacağını göstərir.",
+      "details": {
+        "duration": 152
+      },
+      "poster": "https://i.pinimg.com/736x/bb/21/49/bb214943947a1e24a36c99b2ecf6683d.jpg",
+      "description": "Batman Gotham şəhərini qorumaq üçün Joker ilə ölümcül mübarizə aparır."
+    },
+    {
+      "id": "8",
+      "title": "Suicide Squad",
+      "imdbRating": 6,
+      "genre": [
+        "Aksiyon",
+        "Macəra",
+        "Komediya"
+      ],
+      "type": "film",
+      "director": "David Ayer",
+      "cast": [
+        "Will Smith",
+        "Margot Robbie",
+        "Jared Leto"
+      ],
+      "scenario": "Kəşfiyyat zabiti Amanda Uoller, bəşəriyyəti təhdid edən fövqəltəbii bir güclə mübarizə aparmaq üçün həbsxanalarda saxlanılan ən təhlükəli caniləri bir araya gətirir. Harley Quinn, Deadshot və digərləri boyunlarına yerləşdirilən bombanın qorxusu altında 'İntihar qrupu'na qoşulurlar. Onların missiyası qeyri-mümkün bir tapşırığı yerinə yetirməkdir; uğur qazansalar cəzaları azaldılacaq, uğursuz olsalar isə dövlət hər şeyi inkar edəcək. Bu xaotik qrup daxili münaqişələri kənara qoyub qəhrəmana çevrilməyə çalışır.",
+      "details": {
+        "duration": 123
+      },
+      "poster": "https://cdn.europosters.eu/image/750/31866.jpg",
+      "description": "FBI agenti, cəmiyyət üçün təhlükəli bir qrupu super cinayətkarlarla doldurur və xüsusi bir missiyaya göndərir."
+    },
+    {
+      "id": "9",
+      "title": "Happy Feet 2",
+      "imdbRating": 6.3,
+      "genre": [
+        "Animasiya",
+        "Macəra",
+        "Komediya"
+      ],
+      "type": "film",
+      "director": "George Miller",
+      "cast": [
+        "Elijah Wood",
+        "Robin Williams",
+        "Pink"
+      ],
+      "scenario": "Rəqs kralı Mamblenin indi bir oğlu var: Erik. Lakin Erik atasından fərqli olaraq rəqs etməkdən qorxur və uçmağı bacaran qəribə bir pinqvin olan Svenin tərəfdarı olur. Antarktikada buzlaqların yerindən oynaması nəticəsində bütün pinqvin koloniyası tələyə düşür. Mamble, oğlunun etibarını qazanmaq və xalqını xilas etmək üçün kiçik krillərdən tutmuş nəhəng dəniz fillərinə qədər hər kəsi birləşdirməli olur. Musiqi və rəqsin köməyi ilə təbiətin gücünə qarşı mübarizə aparırlar.",
+      "details": {
+        "duration": 100
+      },
+      "poster": "https://i.pinimg.com/1200x/23/bf/39/23bf3974657493396d9e32d6fe612e55.jpg",
+      "description": "Mumble və dostları Antarktikada yeni macəralar yaşayıb, musiqi və dostluqla problemləri həll edirlər."
+    },
+    {
+      "id": "10",
+      "title": "Pulp Fiction",
+      "imdbRating": 8.9,
+      "genre": [
+        "Cinayət",
+        "Drama"
+      ],
+      "type": "film",
+      "director": "Quentin Tarantino",
+      "cast": [
+        "John Travolta",
+        "Uma Thurman",
+        "Samuel L. Jackson"
+      ],
+      "scenario": "Los-Ancelesin cinayət aləmində bir-birindən asılı olmayan bir neçə hekayə qeyri-xətti şəkildə kəsişir. İki fəlsəfi muzdlu qatil Marsellus Uollesin portfelini geri almağa çalışır, eyni zamanda Marsellus boksçu Butça oyun uduzmağı tapşırır. Digər tərəfdən, qatillərdən biri olan Vinsent müdirinin arvadı Mianı gəzdirərkən onun doza aşımı nəticəsində ölməməsi üçün çırpınır. Bütün bu hadisələr kəskin dialoqlar, qan və qara yumorla zəngin bir şəkildə birləşərək kütləvi mədəniyyətin şah əsərinə çevrilir.",
+      "details": {
+        "duration": 154
+      },
+      "poster": "https://i.pinimg.com/736x/98/4c/99/984c9984276e886bb5f23f1628f2338f.jpg",
+      "description": "Cinayətkarların həyatı və qəribə hadisələrin qarışığı."
+    },
+    {
+      "id": "11",
+      "title": "Fight Club",
+      "imdbRating": 8.8,
+      "genre": [
+        "Drama"
+      ],
+      "type": "film",
+      "director": "David Fincher",
+      "cast": [
+        "Brad Pitt",
+        "Edward Norton",
+        "Helena Bonham Carter"
+      ],
+      "scenario": "Adı bilinməyən bir ofis işçisi istehlakçı cəmiyyətin monotonluğundan və yuxusuzluqdan əziyyət çəkir. O, təyyarədə karizmatik sabun satıcısı Tayler Darden ilə tanış olur. Birlikdə kişilərin içindəki gizli aqressiyanı çıxarmaq üçün yeraltı 'Döyüş Klubu' yaradırlar. Klub qısa zamanda böyüyərək 'Mayhem Layihəsi' adlı anarxist bir qruplaşmaya çevrilir. Baş qəhrəman Taylerin əsl məqsədlərini anladıqda, hər şeyin onun düşündüyü kimi olmadığını və öz beyninin ona oynadığı təhlükəli oyunu kəşf edir.",
+      "details": {
+        "duration": 139
+      },
+      "poster": "https://i.pinimg.com/736x/f8/cc/05/f8cc05b976e2a9853ed5ffe7f68927a7.jpg",
+      "description": "Müasir həyatın boşluğunu və şəxsiyyət böhranını göstərən hekayə."
+    },
+    {
+      "id": "12",
+      "title": "Forrest Gump",
+      "imdbRating": 8.8,
+      "genre": [
+        "Drama",
+        "Romantik"
+      ],
+      "type": "film",
+      "director": "Robert Zemeckis",
+      "cast": [
+        "Tom Hanks",
+        "Robin Wright"
+      ],
+      "scenario": "Forrest Qamp, Alabamada yaşayan, İQ səviyyəsi aşağı olan, lakin qızıl kimi qəlbi olan bir adamdır. O, həyatı boyunca özü də bilmədən ABŞ-ın yaxın tarixinin ən mühüm hadisələrində — Vyetnam müharibəsindən tutmuş Votergeyt qalmaqalına qədər — mərkəzi rol oynayır. Forrest məşhur olur, varlanır və medallar qazanır, lakin onun tək istədiyi uşaqlıq eşqi Cenninin sevgisini qazanmaqdır. Film, 'Həyat bir qutu şokolad kimidir, içindən nə çıxacağını heç vaxt bilmirsən' fəlsəfəsi üzərində qurulub.",
+      "details": {
+        "duration": 142
+      },
+      "poster": "https://i.pinimg.com/1200x/a7/f9/37/a7f937503a7d2c78d1a4f54510282073.jpg",
+      "description": "Sadə insan Forrest Gump-ın inanılmaz həyat hekayəsi və sevgisi."
+    },
+    {
+      "id": "13",
+      "title": "Inception",
+      "imdbRating": 8.8,
+      "genre": [
+        "Elmi fantastika",
+        "Aksiyon"
+      ],
+      "type": "film",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Leonardo DiCaprio",
+        "Joseph Gordon-Levitt",
+        "Elliot Page"
+      ],
+      "scenario": "Dom Cobb, insanların yuxu gördüyü ən müdafiəsiz anda onların şüuraltından qiymətli sirləri oğurlayan peşəkar bir 'çıxarıcı'dır. Bu bacarığı onu korporativ casusluq dünyasında axtarılan şəxsə çevirsə də, eyni zamanda beynəlxalq qaçaqmalçıya çevirir. Ona azadlığını geri qazanmaq üçün son bir şans verilir: bu dəfə fikir oğurlamaq deyil, bir fikri şüuraltına yerləşdirmək (Inception) lazımdır. Kob və komandası yuxu içində yuxu yaradaraq hədəfin ən dərin qatlarına enməli, eyni zamanda Kobun öz keçmişinin kölgələri ilə mübarizə aparmalıdırlar.",
+      "details": {
+        "duration": 148
+      },
+      "poster": "https://i.pinimg.com/1200x/b0/ae/a4/b0aea49646879a043ad9f6ec3002e99f.jpg",
+      "description": "Yuxuların içində yuxu yaradaraq zəkalı bir soyğun planı."
+    },
+    {
+      "id": "14",
+      "title": "Dark",
+      "imdbRating": 8.8,
+      "genre": [
+        "Elmi fantastika",
+        "Triller"
+      ],
+      "type": "serial",
+      "director": "Baran bo Odar",
+      "cast": [
+        "Louis Hofmann",
+        "Lisa Vicari"
+      ],
+      "scenario": "Almaniyanın Vinden qəsəbəsində iki uşağın yoxa çıxması dörd ailənin gizli qalmış keçmişini üzə çıxarır. Hadisələr araşdırıldıqca məlum olur ki, bu itkin düşmələr 1953, 1986 və 2019-cu illərdə baş verən hadisələrlə zəncirvari şəkildə bağlıdır. Zaman səyahətinin mümkün olduğu bu dünyada keçmiş, indiki zaman və gələcək bir-birinə qarışır. Qəhrəmanlar zaman döngəsini qırmaq və dünyanı gözlənilən apokalipsidən xilas etmək üçün özlərinin fərqli zamanlardakı versiyaları ilə qarşılaşmalı və çətin qərarlar verməlidirlər.",
+      "details": {
+        "seasons": 3,
+        "episodes": 26
+      },
+      "poster": "https://i.pinimg.com/1200x/e8/2f/82/e82f828f60f7d210d7c8574595c771e9.jpg",
+      "description": "Alman qəsəbəsində vaxt səyahətinin yaratdığı qarışıqlıq."
+    },
+    {
+      "id": "15",
+      "title": "Maleficent",
+      "imdbRating": 7,
+      "genre": [
+        "Fantastika",
+        "Macəra",
+        "Drama"
+      ],
+      "type": "film",
+      "director": "Robert Stromberg",
+      "cast": [
+        "Angelina Jolie",
+        "Elle Fanning"
+      ],
+      "scenario": "Malefisenta sülhsevər bir meşə krallığında yaşayan gözəl və saf qəlbli bir pəri idi. Lakin inandığı bir insanın xəyanəti onun qəlbinı daşa çevirir və o, intiqam hissi ilə dolur. Malefisenta meşəni qorumaq üçün qaranlıq güclərdən istifadə edir və xəyanətkar kralın yeni doğulmuş qızı Auroranı lənətləyir. Lakin Aurora böyüdükcə Malefisenta onun saflığına bağlanır və bəlkə də Auroranın həm meşə, həm də insan krallığına sülh gətirə biləcək açar olduğunu anlayır. Film, klassik nağılın 'şər qüvvə'sinin daxili dünyasına baxışdır.",
+      "details": {
+        "duration": 97
+      },
+      "poster": "https://i.pinimg.com/736x/38/6e/fc/386efc991d1eb5f6d601ef846fd238d6.jpg",
+      "description": "Şahzadə Aurora-nın taleyini dəyişdirən sehrli cadugər Malefisenta hekayəsi."
+    },
+    {
+      "id": "16",
+      "title": "Black Mirror",
+      "imdbRating": 8.8,
+      "genre": [
+        "Elmi fantastika",
+        "Drama"
+      ],
+      "type": "serial",
+      "director": "Charlie Brooker (Creator)",
+      "cast": [
+        "Various Cast"
+      ],
+      "scenario": "Bu antologiya serialı müasir cəmiyyətin texnologiya ilə olan asılılığını və bu asılılığın yarada biləcəyi dəhşətli nəticələri araşdırır. Hər bir epizod fərqli bir hekayəni, fərqli bir gələcəyi və ya alternativ reallığı təsvir edir. Sosial media reytinqlərinin insanların həyatını müəyyən etdiyi dünyadan tutmuş, ölən insanların rəqəmsal nüsxələrinin yaradılmasına qədər bir çox mövzu işlənir. 'Black Mirror' (Qara Güzgü) adı televizorların, smartfonların və monitorların sönük ekranına istinad edərək, texnologiyanın bizə tutduğu qaranlıq güzgünü simvolizə edir.",
+      "details": {
+        "seasons": 6,
+        "episodes": 27
+      },
+      "poster": "https://i.pinimg.com/736x/13/0a/96/130a96e2eb3c1f9c07f0fdecea542391.jpg",
+      "description": "Texnologiyanın gələcəkdə insan həyatına təsirini düşündürücü hekayələrdə göstərir."
+    },
+    {
+      "id": "17",
+      "title": "Peaky Blinders",
+      "imdbRating": 8.8,
+      "genre": [
+        "Cinayət",
+        "Drama"
+      ],
+      "type": "serial",
+      "director": "Steven Knight (Creator)",
+      "cast": [
+        "Cillian Murphy",
+        "Paul Anderson",
+        "Helen McCrory"
+      ],
+      "scenario": "1919-cu il, İngiltərə, Birmingem. Müharibədən yeni qayıtmış Tomas Şelbi, qardaşları ilə birlikdə şəhərin ən qorxulu quldur dəstəsi olan 'Peaky Blinders'ə rəhbərlik edir. Papaqlarının ucuna ülgüc yerləşdirən bu dəstə qanunsuz qumar və qaçaqmalçılıqla məşğuldur. Tomasın ambisiyaları Birmingemlə məhdudlaşmır; o, ailə biznesini qanuniləşdirmək və dövlətin ən yüksək pillələrinə qalxmaq istəyir. Lakin o, həm amansız polis müfəttişi Kempbell, həm də rəqib mafiya ailələri ilə mübarizə apararkən keçmişin travmaları ilə də boğuşur.",
+      "details": {
+        "seasons": 6,
+        "episodes": 36
+      },
+      "poster": "https://i.pinimg.com/1200x/eb/51/19/eb51194e29817efeed104e40d779f010.jpg",
+      "description": "Birmingham mafiyasının 1920-ci illərdəki həyatı və ambisiyaları."
+    },
+    {
+      "id": "18",
+      "title": "The Matrix",
+      "imdbRating": 8.7,
+      "genre": [
+        "Elmi fantastika",
+        "Aksiyon"
+      ],
+      "type": "film",
+      "director": "Lana Wachowski, Lilly Wachowski",
+      "cast": [
+        "Keanu Reeves",
+        "Laurence Fishburne",
+        "Carrie-Anne Moss"
+      ],
+      "scenario": "Tomas Anderson gündüzlər proqramçı, gecələr isə 'Neo' ləqəbli hakerdir. O, yaşadığı dünyada bir şeylərin yanlış olduğunu hiss edir. Sirli Morfius ilə tanış olduqdan sonra Neo öyrənir ki, 1999-cu il kimi görünən bu dünya əslində maşınlar tərəfindən yaradılmış 'Matris' adlı süni simulyasiyadır. Əslində isə dünya 2199-cu ildədir və insanlar maşınlar üçün enerji mənbəyi kimi istifadə olunur. Neo, insanlığı xilas edəcək 'Seçilmiş kişi' olduğuna inanılan yeganə ümiddir və o, həm Matrisin daxilindəki Agent Smitlə, həm də reallıqdakı amansız maşınlarla savaşmalıdır.",
+      "details": {
+        "duration": 136
+      },
+      "poster": "https://i.pinimg.com/736x/62/f2/41/62f241fd34d94f303a71df7fc7274fbb.jpg",
+      "description": "Reallıq və virtual dünya arasında savaşan Neo-nun hekayəsi."
+    },
+    {
+      "id": "19",
+      "title": "Stranger Things",
+      "imdbRating": 8.7,
+      "genre": [
+        "Elmi fantastika",
+        "Qorxu"
+      ],
+      "type": "serial",
+      "director": "The Duffer Brothers",
+      "cast": [
+        "Millie Bobby Brown",
+        "Finn Wolfhard",
+        "Winona Ryder"
+      ],
+      "scenario": "1983-cü ildə İndiana ştatının Houkins qəsəbəsində balaca Uill Bayers müəmmalı şəkildə yoxa çıxır. Onu axtaran dostları Mayk, Dastin və Lukas meşədə qeyri-adi telekinetik güclərə malik olan 'On bir' (Eleven) adlı bir qızla rastlaşırlar. Məlum olur ki, qəsəbənin kənarındakı laboratoriyada aparılan gizli təcrübələr 'Tərs dünya' (Upside Down) adlı qaranlıq bir ölçüyə qapı açıb. Uill oradadır və onu xilas etmək üçün uşaqlar, qəsəbə şerifi və Uillin anası həm dövlət agentlərinə, həm də o dünyadan gələn dəhşətli canavarlara qarşı birləşməli olurlar.",
+      "details": {
+        "seasons": 4,
+        "episodes": 34
+      },
+      "poster": "https://i.pinimg.com/736x/17/25/15/1725159604bc03868815ef2835c96488.jpg",
+      "description": "Kiçik qəsəbədə uşaqların qəribə və qorxulu hadisələr yaşaması."
+    },
+    {
+      "id": "20",
+      "title": "Interstellar",
+      "imdbRating": 8.6,
+      "genre": [
+        "Elmi fantastika",
+        "Macəra"
+      ],
+      "type": "film",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Matthew McConaughey",
+        "Anne Hathaway",
+        "Jessica Chastain"
+      ],
+      "scenario": "Yaxın gələcəkdə Yer kürəsi ekoloji fəlakət və qıtlıq səbəbindən məhv olmaq üzrədir. Keçmiş pilot Kuper, NASA-nın gizli bir layihəsinə dəvət olunur. Məqsəd, Saturn yaxınlığında peyda olan sirli bir 'soxulcan dəliyi'ndən keçərək insanlıq üçün yeni bir yaşayış planeti tapmaqdır. Kuper uşaqlarını geridə qoyub kosmik gəmi ilə uzaq qalaktikalara səyahət edir. Zamanın fərqli axdığı bu səyahətdə o, qara dəliklərin sirrini kəşf edir və bəşəriyyətin xilasının yalnız fizika deyil, həm də sevgi və bağlarla mümkün olduğunu başa düşür.",
+      "details": {
+        "duration": 169
+      },
+      "poster": "https://i.pinimg.com/736x/aa/35/14/aa3514c162f701a3a308677d35bc6ac9.jpg",
+      "description": "Kosmosda insanlığın gələcəyini qurtarmaq üçün aparılan səyahət."
+    },
+    {
+      "id": "21",
+      "title": "Se7en",
+      "imdbRating": 8.6,
+      "genre": [
+        "Cinayət",
+        "Triller"
+      ],
+      "type": "film",
+      "director": "David Fincher",
+      "cast": [
+        "Brad Pitt",
+        "Morgan Freeman"
+      ],
+      "scenario": "Təqaüdə çıxmağa hazırlaşan təcrübəli detektiv Somerset və onun gənc, enerjili ortağı Mills dəhşətli bir qətl hadisəsini araşdırırlar. Qurbanlar Bibliyada qeyd olunan 'yeddi ölümcül günah'a (qarınqululuq, xəsislik, tənbəllik, şəhvət, təkəbbür, həsəd və qəzəb) uyğun şəkildə öldürülür. Qatil 'John Doe' özünü dünyaya dərs verən bir vaiz kimi görür və cinayətlərini bir incəsənət əsəri kimi planlaşdırır. Detektivlər qatili tapdıqlarını düşünəndə, onun əslində hər şeyi ən başından planlaşdırdığını və finalın detektivlərin özlərini hədəf aldığını acı şəkildə öyrənirlər.",
+      "details": {
+        "duration": 127
+      },
+      "poster": "https://i.pinimg.com/736x/65/df/92/65df92293f32747310da979f22662d31.jpg",
+      "description": "İki detektiv qəribə qətlləri araşdırır və pisliyi üzə çıxarır."
+    },
+    {
+      "id": "22",
+      "title": "Parasite",
+      "imdbRating": 8.5,
+      "genre": [
+        "Triller",
+        "Drama"
+      ],
+      "type": "film",
+      "director": "Bong Joon-ho",
+      "cast": [
+        "Song Kang-ho",
+        "Lee Sun-kyun"
+      ],
+      "scenario": "Kasu-yarım zirzəmidə yaşayan kasıb Kim ailəsinin bütün üzvləri işsizdir. Bir gün ailənin oğlu yalançı diplomla zəngin Park ailəsinin qızına repetitorluq etmək imkanı qazanır. Daha sonra Kim ailəsinin digər üzvləri də müxtəlif hiylələrlə Park ailəsinin evində xidmətçi, sürücü və sənət müəllimi kimi işə düzəlirlər. Hər şey mükəmməl gedirmiş kimi görünür, lakin Park ailəsinin evindəki gizli bir zirzəmi və keçmiş xidmətçinin qayıtması ilə siniflər arası qarşıdurma qanlı və gözlənilməz bir trillerə çevrilir. Film müasir dünyadakı kəskin sosial bərabərsizliyi tənqid edir.",
+      "details": {
+        "duration": 132
+      },
+      "poster": "https://i.pinimg.com/736x/a0/5e/44/a05e4400c8c7b88ee471d35574fcec37.jpg",
+      "description": "Zəngin və kasıb ailələr arasındakı qarşıdurma və sürpriz dönüklər."
+    },
+    {
+      "id": "23",
+      "title": "Whiplash",
+      "imdbRating": 8.5,
+      "genre": [
+        "Drama",
+        "Musiqili"
+      ],
+      "type": "film",
+      "director": "Damien Chazelle",
+      "cast": [
+        "Miles Teller",
+        "J.K. Simmons"
+      ],
+      "scenario": "Endrü Neyman ölkənin ən yaxşı musiqi konservatoriyalarından birində oxuyan və gələcəyin dahi caz zərbçisi olmaq istəyən gənc bir tələbədir. O, konservatoriyanın ən nüfuzlu və qəddar müəllimi olan Terrens Fletcherin orkestrinə seçilir. Fletcher öz tələbələrini mükəmməlliyə çatdırmaq üçün onlara qarşı psixoloji terror və fiziki təzyiq tətbiq edir. Endrü musiqi uğrunda hər şeyini — sağlamlığını, münasibətlərini və ağlını fəda etməyə hazırdır. Bu, dahiliklə dəlilik arasındakı incə xəttin və sənətin nə qədər amansız ola biləcəyinin hekayəsidir.",
+      "details": {
+        "duration": 106
+      },
+      "poster": "https://i.pinimg.com/1200x/bb/65/25/bb652516392501bd7db515ba53a02787.jpg",
+      "description": "Musiqi tələbəsi və sərt müəllimi arasında gərgin və inspirativ münasibət."
+    },
+    {
+      "id": "24",
+      "title": "Vikings",
+      "imdbRating": 8.5,
+      "genre": [
+        "Tarixi",
+        "Aksiyon"
+      ],
+      "type": "serial",
+      "director": "Michael Hirst (Creator)",
+      "cast": [
+        "Travis Fimmel",
+        "Katheryn Winnick",
+        "Clive Standen"
+      ],
+      "scenario": "Raqnar Lodbrok qeyri-adi marağı və zəkası ilə seçilən adi bir viking fermeridir. O, yerli lordun əmrinə qarşı çıxaraq qərbə — tanınmayan torpaqlara (İngiltərəyə) üzmək qərarına gəlir. Gəmi ustası Flokinin köməyi ilə dənizləri aşan Raqnar, qardaşı Rollo və döyüşçü həyat yoldaşı Lagerta ilə birlikdə böyük qənimətlər gətirir. Bu uğurlar onu zamanla Skandinaviyanın kralı və xristian dünyası üçün böyük bir təhlükə halına gətirir. Serial, vikinglərin mədəniyyətini, dinlərini və Raqnarın oğullarının atasının mirasını davam etdirmə mübarizəsini əks etdirir.",
+      "details": {
+        "seasons": 6,
+        "episodes": 89
+      },
+      "poster": "https://i.pinimg.com/736x/8d/a5/c2/8da5c22d0b2052cf08dc0455eb2417ba.jpg",
+      "description": "Viking liderlərinin döyüşləri və səyahətləri əsasında epik drama."
+    },
+    {
+      "id": "25",
+      "title": "House of the Dragon",
+      "imdbRating": 8.5,
+      "genre": [
+        "Fantastika",
+        "Drama"
+      ],
+      "type": "serial",
+      "director": "Ryan Condal, George R.R. Martin",
+      "cast": [
+        "Matt Smith",
+        "Emma D'Arcy",
+        "Paddy Considine"
+      ],
+      "scenario": "Game of Thrones hadisələrindən 200 il əvvəl Tarqaryen sülaləsi öz gücünün zirvəsindədir. Kral Viserys, taxt-taca varis olaraq qızı Rhaenyranı seçir, lakin krallığın ənənələrinə görə qadının taxta çıxması qəbul edilmir. Kralın ölümündən sonra ailə daxilində bölünmə baş verir: Rhaenyranın tərəfdarları ('Qaralar') və kralın ikinci həyat yoldaşından olan oğlu Aegonun tərəfdarları ('Yaşıllar'). Bu qarşıdurma Tarqaryenlərin süqutunun başlanğıcı olan və 'Əjdahaların Rəqsi' adlanan qanlı vətəndaş müharibəsinə gətirib çıxarır.",
+      "details": {
+        "seasons": 2,
+        "episodes": 18
+      },
+      "poster": "https://i.pinimg.com/736x/69/77/8e/69778ebf35cd22018c872a088b34b682.jpg",
+      "description": "Targaryen ailəsinin taxt uğrunda mübarizəsini göstərir."
+    },
+    {
+      "id": "26",
+      "title": "Joker",
+      "imdbRating": 8.4,
+      "genre": [
+        "Drama",
+        "Cinayət"
+      ],
+      "type": "film",
+      "director": "Todd Phillips",
+      "cast": [
+        "Joaquin Phoenix",
+        "Robert De Niro"
+      ],
+      "scenario": "1981-ci ilin Qotem şəhəri xaos və cinayət içindədir. Artur Flek, fərdi problemləri olan və xüsusi gülüş xəstəliyindən əziyyət çəkən bir kloundur. O, stand-up komediyaçısı olmaq xəyalı ilə yaşayır, lakin cəmiyyət tərəfindən daim təhqir olunur və döyülür. Dövlətin sosial yardımları kəsməsi və anasının keçmişi haqqında öyrəndiyi sarsıdıcı faktlar Arturu tamamilə çökdürür. O, artıq qurban olmağı dayandırıb, Joker kimliyi ilə qanlı bir üsyana başlayır. Bu film, bir insanın necə caniyə çevrilə biləcəyinin dərin psixoloji portretidir.",
+      "details": {
+        "duration": 122
+      },
+      "poster": "https://i.pinimg.com/1200x/eb/55/09/eb5509a579b3e968bd7d7abc50a4850e.jpg",
+      "description": "Arthur Fleck-in travmalı həyatı onu Batmanın ən böyük düşməninə çevirir."
+    },
+    {
+      "id": "27",
+      "title": "Avengers: Endgame",
+      "imdbRating": 8.4,
+      "genre": [
+        "Aksiyon",
+        "Macəra"
+      ],
+      "type": "film",
+      "director": "Anthony Russo, Joe Russo",
+      "cast": [
+        "Robert Downey Jr.",
+        "Chris Evans",
+        "Scarlett Johansson"
+      ],
+      "scenario": "Tanos 'Sonsuzluq daşları'ndan istifadə edərək kainatın əhalisinin yarısını yox etdikdən sonra Qisasçılar məğlubiyyətin acısını yaşayırlar. Beş il keçir və hər şeyin ümidsiz göründüyü bir anda Qarışqa-adamın kvant aləmindən qayıtması yeni bir ümid doğurur: keçmişə səyahət. Dəmir Adam, Kapitan Amerika və digər sağ qalan qəhrəmanlar daşları Tanosdan əvvəl toplamaq üçün fərqli zaman dilimlərinə bölünürlər. Bu səyahət böyük fədakarlıqlar tələb edir və kainatın taleyi üçün ən böyük orduların qarşılaşdığı final döyüşünə səbəb olur.",
+      "details": {
+        "duration": 181
+      },
+      "poster": "https://i.pinimg.com/1200x/95/26/68/9526684fe11e38cf6bb6fbd48e37de6a.jpg",
+      "description": "Super qəhrəmanlar Thanos-u məğlub etmək üçün son döyüşə çıxır."
+    },
+    {
+      "id": "28",
+      "title": "The Prestige",
+      "imdbRating": 8.5,
+      "genre": [
+        "Drama",
+        "Detektiv"
+      ],
+      "type": "film",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Hugh Jackman",
+        "Christian Bale"
+      ],
+      "scenario": "Viktoriya dövrü Londonda Robert Angier və Alfred Borden eyni sehristan yanında köməkçi işləyən iki dostdurlar. Bir nümayiş zamanı baş verən qəza nəticəsində Angierin arvadının ölməsi onları qatı düşmənə çevirir. Onlar ayrılaraq öz karyeralarını qururlar, lakin hər ikisi digərinin nömrələrini ifşa etmək və ən yaxşı olmaq üçün xəstəlik dərəcəsində rəqabətə girirlər. Borden 'Yerini dəyişən insan' nömrəsini kəşf edəndə, Angier bu sirri öyrənmək üçün elm adamı Nikola Teslanın köməyinə müraciət edir. Hekayə hər bir sehrin üç mərhələsi (vəd, dönüş və prestij) üzərində qurulub və inanılmaz bir sonluqla bitir.",
+      "details": {
+        "duration": 130
+      },
+      "poster": "https://i.pinimg.com/736x/8f/50/13/8f5013503873df116c3d0e618d6becfd.jpg",
+      "description": "İki sehrbaz arasında ölümcül rəqabət və sirli hiylələr."
+    },
+    {
+      "id": "29",
+      "title": "Money Heist",
+      "imdbRating": 8.2,
+      "genre": [
+        "Cinayət",
+        "Triller"
+      ],
+      "type": "serial",
+      "director": "Álex Pina (Creator)",
+      "cast": [
+        "Úrsula Corberó",
+        "Álvaro Morte",
+        "Itziar Ituño"
+      ],
+      "scenario": "'Professor' ləqəbli sirli bir dahi, itirəcək heç nəyi olmayan və müxtəlif cinayət keçmişləri olan səkkiz nəfəri bir araya gətirir. Onlara şəhər adları verilir (Tokio, Berlin, Rio və s.). Plan, İspaniya Kral Zərbxanasına girərək girovlar götürmək və orada 2.4 milyard avro çap edərək heç kimin pulunu oğurlamadan oradan çıxmaqdır. Professor binanın kənarından polisi idarə edərkən, içəridəki qrup qaydalara əməl etməyə çalışır. Lakin sevgi, daxili çəkişmələr və gözlənilməz polis həmlələri bu 'mükəmməl' planı riskə atır.",
+      "details": {
+        "seasons": 5,
+        "episodes": 41
+      },
+      "poster": "https://i.pinimg.com/736x/d7/3b/7a/d73b7a4e4f3f06caef85add6ffe2d160.jpg",
+      "description": "Profesyonel bir qrupun Mərkəzi Banka qarşı planlı soyğunu."
+    },
+    {
+      "id": "30",
+      "title": "11.22.63",
+      "imdbRating": 8.3,
+      "genre": [
+        "Drama",
+        "Tarixi",
+        "Triller"
+      ],
+      "type": "serial",
+      "director": "Bridget Carpenter (Developer)",
+      "cast": [
+        "James Franco",
+        "Sarah Gadon"
+      ],
+      "scenario": "Ceyk Eppinq adi bir ədəbiyyat müəllimidir. Dostu Al ona restoranının anbarında 1960-cı ilə açılan bir portal olduğunu göstərir. Alın xərçəng xəstəliyi səbəbindən bitirə bilmədiyi bir missiyası var: 22 noyabr 1963-cü ildə prezident Con Kennedinin sui-qəsdini dayandırmaq. Ceyk keçmişə gedir və illərlə orada yaşayaraq həm Li Harvi Osvaldın izinə düşür, həm də gənc Sadie Dunhilla aşiq olur. Lakin keçmiş dəyişdirilməyi sevmir və hər dəfə Ceyk tarixi dəyişməyə çalışanda qorxulu və ölümcül hadisələrlə ona mane olur.",
+      "details": {
+        "seasons": 1,
+        "episodes": 8
+      },
+      "poster": "https://i.pinimg.com/736x/3e/1b/aa/3e1baac13c3d783d0d5bd00c1fb1f808.jpg",
+      "description": "Zaman səyahəti edən müəllim, Con F. Kennedinin öldürülməsini önləməyə çalışır."
+    },
+    {
+      "id": "31",
+      "title": "Titanic",
+      "imdbRating": 7.9,
+      "genre": [
+        "Romantik",
+        "Drama"
+      ],
+      "type": "film",
+      "director": "James Cameron",
+      "cast": [
+        "Leonardo DiCaprio",
+        "Kate Winslet"
+      ],
+      "scenario": "1912-ci ildə dövrünün ən böyük gəmisi olan Titanik ilk səyahətinə çıxır. Gəmidə yuxarı təbəqənin nümayəndəsi, varlı Rouz Deuitt Bukater və oyun kartında bilet udan kasıb rəssam Cek Douson tanış olurlar. Rouzun məcburi nişanından qaçmaq istəyi və Cekin azad ruhu onları yaxınlaşdırır. Onlar gəmidəki sosial maneələri qıraraq böyük bir eşq yaşayırlar. Lakin gəmi aysberqlə toqquşduqda, bu romantik hekayə sağ qalma mübarizəsinə çevrilir. Film həm böyük bir faciəni, həm də fədakarlıq dolu bir sevgini canlandırır.",
+      "details": {
+        "duration": 195
+      },
+      "poster": "https://i.pinimg.com/736x/41/49/e8/4149e88bc78090b7232ce51bd4270e99.jpg",
+      "description": "Titanik gəmisində yaşanan böyük sevgi və faciə dolu hekayə."
+    },
+    {
+      "id": "32",
+      "title": "Gladiator",
+      "imdbRating": 8.5,
+      "genre": [
+        "Aksiyon",
+        "Drama"
+      ],
+      "type": "film",
+      "director": "Ridley Scott",
+      "cast": [
+        "Russell Crowe",
+        "Joaquin Phoenix"
+      ],
+      "scenario": "Roma imperatoru Mark Avreli özündən sonra imperiyanı oğlu Kommodusa deyil, sadiq generalı Maksimusa tapşırmaq istəyir. Atasını öldürən Kommodus taxtı ələ keçirir və Maksimusun ailəsini məhv etdirir. Maksimus qaçsa da, əsir düşür və bir qul kimi satılaraq gladiatora çevrilir. O, arenalarda qazandığı uğurlarla xalqın sevgisini qazanır və Romaya qayıdır. İndi onun tək məqsədi ailəsinin qatili Kommodusun gözlərinin içinə baxaraq intiqamını almaqdır. Maksimus arenadakı hər döyüşü imperatorun devrilməsi üçün bir addıma çevirir.",
+      "details": {
+        "duration": 155
+      },
+      "poster": "https://i.pinimg.com/1200x/57/ab/d4/57abd415a5771a0d0d0371a5ec8a8ee5.jpg",
+      "description": "Romalı general kölə olur və arenada ədalət üçün mübarizə aparır."
+    },
+    {
+      "id": "33",
+      "title": "The Dark Knight Rises",
+      "imdbRating": 8.4,
+      "genre": [
+        "Aksiyon",
+        "Cinayət"
+      ],
+      "type": "film",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Christian Bale",
+        "Tom Hardy",
+        "Anne Hathaway"
+      ],
+      "scenario": "Jokerin ölümündən və Harvi Dentin cinayətlərinin üstünün örtülməsindən səkkiz il keçib. Betmen polis tərəfindən axtarılan bir cinayətkar kimi gizlənib və Bryus Ueyn özünə qapanıb. Lakin amansız terrorçu Beyn Qotemə gəlib şəhəri daxildən məhv etməyə başladıqda, Bryus geri qayıtmaq məcburiyyətində qalır. O, fiziki olaraq özündən qat-qat güclü olan Beynə məğlub olub uzaq bir həbsxanaya atılır. Bryus ruhən dirçəlib həbsxanadan qaçmalı və Selina Kaylın (Pişik-qadın) qeyri-müəyyən köməyi ilə Qotemi nüvə partlayışından xilas etməlidir.",
+      "details": {
+        "duration": 165
+      },
+      "poster": "https://i.pinimg.com/1200x/74/72/77/7472778f86c354e58dc106d9c8db2ed7.jpg",
+      "description": "Batman şəhəri qorumaq üçün son dəfə çıxış edir və yeni düşmənlə qarşılaşır."
+    },
+    {
+      "id": "34",
+      "title": "Doctor Strange",
+      "imdbRating": 7.5,
+      "genre": [
+        "Aksiyon",
+        "Fantastika"
+      ],
+      "type": "film",
+      "director": "Scott Derrickson",
+      "cast": [
+        "Benedict Cumberbatch",
+        "Chiwetel Ejiofor"
+      ],
+      "scenario": "Stiven Strenc dünyanın ən uğurlu, lakin bir o qədər də təkəbbürlü neyrocərrahıdır. Keçirdiyi avtomobil qəzası nəticəsində əllərinin sinirləri zədələnir və o, artıq cərrahiyyə edə bilmir. Tibbin çarəsiz qaldığını görən Strenc, Nepalın Katmandu şəhərinə, 'Kamar-Tac' adlı sirli məkana gedir. Orada 'Ancient One'dan sehr və paralel ölçülərin sirlərini öyrənir. Strenc təkcə fiziki deyil, həm də mənəvi olaraq dəyişir. O, dünyanı qaranlıq ölçüdən gələn Dormammu və onun tərəfdarlarından qorumaq üçün 'Ali Sehrbaz' rolunu öz üzərinə götürür.",
+      "details": {
+        "duration": 115
+      },
+      "poster": "https://i.pinimg.com/736x/70/01/4a/70014ad3e9e47a741e2618124301c4ad.jpg",
+      "description": "Cerrah Doctor Strange sehrli dünyanın gücünü öyrənir."
+    },
+    {
+      "id": "35",
+      "title": "Avatar",
+      "imdbRating": 7.8,
+      "genre": [
+        "Aksiyon",
+        "Macəra"
+      ],
+      "type": "film",
+      "director": "James Cameron",
+      "cast": [
+        "Sam Worthington",
+        "Zoe Saldana"
+      ],
+      "scenario": "22-ci əsrdə insanlar Pandora adlı uzaq peykdə 'Unobtanium' adlı qiymətli mineral çıxarırlar. Pandoranın atmosferi insanlar üçün zəhərlidir, buna görə də yerli Na'vi irqinə bənzəyən süni bədənlər — 'Avatarlar' yaradılır. Keçmiş dəniz piyadası, shəkəst Ceyk Salli qardaşının yerinə layihəyə qoşulur. Ceyk Na'vilərin arasına sızmalı və onları qovmağa razı salmalıdır. Lakin o, qəbilə başçısının qızı Neytiriyə aşiq olur və Na'vi mədəniyyətinin təbiətlə olan dərin bağlılığını anlayır. İnsanlar hücuma keçəndə, Ceyk öz növünə qarşı çıxaraq Pandoranı xilas etmək üçün mübarizəyə rəhbərlik edir.",
+      "details": {
+        "duration": 162
+      },
+      "poster": "https://i.pinimg.com/736x/30/40/10/304010f409cc50741e89a94f5cbf577f.jpg",
+      "description": "Paralel planet Pandora-da insan və yerli irq arasında mübarizə."
+    },
+    {
+      "id": "36",
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "imdbRating": 8.9,
+      "genre": [
+        "Fantastika",
+        "Macəra"
+      ],
+      "type": "film",
+      "director": "Peter Jackson",
+      "cast": [
+        "Elijah Wood",
+        "Ian McKellen",
+        "Viggo Mortensen"
+      ],
+      "scenario": "Qara Lord Sauron, Orta Yeri ələ keçirmək üçün lazım olan itmiş 'Tək Üzüyü' axtarır. Üzük təsadüfən gənc hobbit Frodo Baqqinsin əlinə keçir. Sehrbaz Qandalf Frodoya deyir ki, üzük yalnız onu yaradan yerdə — Hökum Dağının alovlarında məhv edilə bilər. Frodo, dostları, bir insan şahzadəsi, bir elf, bir cırtdan və digər hobbitlərlə birlikdə 'Üzük Qardaşlığı'nı qurur. Onlar Sauronun qaranlıq orduları və üzüyün şirnikləndirici gücü ilə mübarizə apararaq Orta Yerin taleyi üçün uzun və təhlükəli bir səyahətə çıxırlar.",
+      "details": {
+        "duration": 178
+      },
+      "poster": "https://i.pinimg.com/736x/a9/6a/00/a96a002732d97f46655bb7ed7a616db5.jpg",
+      "description": "Orta Yer dünyasında sehrli üzüklərin taleyi üçün epik səyahət."
+    },
+    {
+      "id": "37",
+      "title": "Dune",
+      "imdbRating": 8.2,
+      "genre": [
+        "Elmi fantastika",
+        "Macəra"
+      ],
+      "type": "film",
+      "director": "Denis Villeneuve",
+      "cast": [
+        "Timothée Chalamet",
+        "Rebecca Ferguson"
+      ],
+      "scenario": "Uzaq gələcəkdə kainatın ən vacib maddəsi 'Spays' (Spice) adlı bir tozdur. Bu toz yalnız təhlükəli səhra planeti olan Arrakisdə tapılır. İmperator, Atreides ailəsinə Arrakisi idarə etməyi tapşırır, lakin bu əslində rəqib Harkonnen ailəsi ilə birlikdə qurulmuş bir tələdir. Gənc Paul Atreides, ailəsinin xəyanətə uğramasından sonra anası ilə birlikdə səhraya qaçır. O, planeti və ailəsini geri almaq üçün yerli xalq olan Fremenlərə qoşulmalı və özünün daxilindəki gizli qədim gücləri kəşf edərək 'Kvisatz Haderach' olduğunu sübut etməlidir.",
+      "details": {
+        "duration": 155
+      },
+      "poster": "https://i.pinimg.com/736x/2a/b5/14/2ab51409bf2df8b4b42078cb31ff9e1f.jpg",
+      "description": "Uzaq planet Arrakis-də imperiya və ailələr arasında mübarizə."
+    },
+    {
+      "id": "38",
+      "title": "The Lion King",
+      "imdbRating": 8.5,
+      "genre": [
+        "Animasiya",
+        "Macəra"
+      ],
+      "type": "film",
+      "director": "Roger Allers, Rob Minkoff",
+      "cast": [
+        "Matthew Broderick",
+        "Jeremy Irons"
+      ],
+      "scenario": "Simba, kral Mufasanın oğludur və gələcəkdə krallığı idarə edəcək. Lakin Simbanın əmisi Skar, taxtı ələ keçirmək üçün Mufasanı öldürür və günahı kiçik Simbanın üstünə atır. Simba krallıqdan qaçır və uzaqlarda Timon və Pumbaa ilə tanış olur, 'Hakuna Matata' fəlsəfəsi ilə dertsiz bir həyat sürməyə başlayır. Lakin uşaqlıq dostu Nala ilə qarşılaşdıqda öyrənir ki, krallıq Skarın əlində məhv olur. Simba öz qorxuları ilə üzləşməli, atasının ruhundan ilham almalı və 'Həyat döngəsi'ndəki yerini tutmaq üçün krallığa geri dönməlidir.",
+      "details": {
+        "duration": 88
+      },
+      "poster": "https://i.pinimg.com/736x/a3/a7/f3/a3a7f3162e9d7564f1837e5fccac672b.jpg",
+      "description": "Kiçik şir Simba kral olmaq yolunda böyüyür və ailəsini qoruyur."
+    },
+    {
+      "id": "39",
+      "title": "Coco",
+      "imdbRating": 8.4,
+      "genre": [
+        "Animasiya",
+        "Musiqili"
+      ],
+      "type": "film",
+      "director": "Lee Unkrich",
+      "cast": [
+        "Anthony Gonzalez",
+        "Gael García Bernal"
+      ],
+      "scenario": "12 yaşlı Miqelin ailəsində musiqi nəsillər boyu qadağan edilib, çünki ulu babası musiqi üçün ailəsini tərk edib. Miqel gizlicə kumiri Ernesto de la Kruz kimi musiqiçi olmağı xəyal edir. 'Ölülər günü' bayramında Miqel sehrli şəkildə 'Ölülər Diyarı'na keçir. Orada öz əcdadlarını, xüsusən də hiyləgər Hektorla tanış olur. Miqel ailəsinin musiqiyə nifrətinin əsl səbəbini öyrənmək və gün batana qədər diri insanların dünyasına qayıtmaq üçün əcdadlarının xeyir-duasını almalıdır. Film ailə bağları və unudulmamaq haqqında duyğusal bir hekayədir.",
+      "details": {
+        "duration": 105
+      },
+      "poster": "https://i.pinimg.com/1200x/b0/1a/ea/b01aeadb49d429e32be99429216f92e8.jpg",
+      "description": "Musiqi həvəskarı uşaq ölmüş ailəsi ilə əlaqə tapır və səyahət edir."
+    },
+    {
+      "id": "40",
+      "title": "Up",
+      "imdbRating": 8.2,
+      "genre": [
+        "Animasiya",
+        "Macəra"
+      ],
+      "type": "film",
+      "director": "Pete Docter",
+      "cast": [
+        "Edward Asner",
+        "Jordan Nagai"
+      ],
+      "scenario": "Karl Fredriksen bütün ömrünü həyat yoldaşı Elli ilə dünyanı gəzmək xəyalı ilə keçirib, lakin Elli vəfat etdikdən sonra o, tək və kədərli qalıb. Evini tikinti şirkətinə verməmək üçün Karl evinə minlərlə rəngli şar bağlayaraq Cənubi Amerikadakı 'Cənnət şəlaləsi'nə uçur. Lakin havada olarkən o, eyvanda 8 yaşlı skaut Rasselin də olduğunu öyrənir. Bu qeyri-adi ikili, yolda danışan it Daq və nəhəng rəngli quş Kevinlə tanış olurlar. Karl bu macəra zamanı anlayır ki, ən böyük macəra əslində sevdiklərimizlə keçirdiyimiz anlardır.",
+      "details": {
+        "duration": 96
+      },
+      "poster": "https://i.pinimg.com/1200x/cd/ac/25/cdac25907202528f6cc79c22aaf4fd44.jpg",
+      "description": "Yaşlı kişi və uşaq balonlarla macəraya çıxır."
+    },
+    {
+      "id": "41",
+      "title": "Inside Out",
+      "imdbRating": 8.1,
+      "genre": [
+        "Animasiya",
+        "Komediya"
+      ],
+      "type": "film",
+      "director": "Pete Docter",
+      "cast": [
+        "Amy Poehler",
+        "Phyllis Smith"
+      ],
+      "scenario": "11 yaşlı Railinin beynindəki 'Qərargah'da beş əsas emosiya yaşayır: Sevinc, Kədər, Qorxu, Qəzəb və İyrənc. Raili başqa şəhərə köçəndə emosiyalar arasında qarışıqlıq yaranır. Sevinc Railinin həmişə xoşbəxt olmasını istəyir, lakin Kədər təsadüfən Railinin əsas xatirələrinə toxunduqda hər ikisi beynin dərinliklərinə düşürlər. Onlar geri qayıtmağa çalışarkən Raili emosional böhran keçirir. Sevinc bu yolun sonunda başa düşür ki, Kədər də ən az Sevinc qədər vacibdir və insanın böyüməsi üçün bütün hisslərin öz yeri var.",
+      "details": {
+        "duration": 95
+      },
+      "poster": "https://i.pinimg.com/736x/f4/c5/31/f4c531a57f6ae4361c6adf2173c09ef8.jpg",
+      "description": "Bir qızın emosiyaları onun gündəlik həyatını necə idarə edir göstərilir."
+    },
+    {
+      "id": "42",
+      "title": "Moana",
+      "imdbRating": 7.6,
+      "genre": [
+        "Animasiya",
+        "Macəra"
+      ],
+      "type": "film",
+      "director": "Ron Clements, John Musker",
+      "cast": [
+        "Auli'i Cravalho",
+        "Dwayne Johnson"
+      ],
+      "scenario": "Polineziya adalarından birində yaşayan Moana, adadakı həyat təhlükə altına düşəndə qədim bir ləvanəti qırmaq üçün okeana yola düşür. O, yarı-allah Maui-ni tapmalı və onun min illər əvvəl oğurladığı ilahə Te Fitinin qəlbinı geri qaytarmalıdır. Maui əvvəlcə kömək etmək istəməsə də, Moananın iradəsi və okeanın köməyi ilə họlar birlikdə nəhəng canavarlarla döyüşürlər. Moana bu səyahət zamanı həm xalqının əslində dənizçi keçmişini xatırlayır, həm də özünün kim olduğunu kəşf edir.",
+      "details": {
+        "duration": 107
+      },
+      "poster": "https://i.pinimg.com/736x/83/4f/f4/834ff4d6e1030234fc64dd5cfb2adc8c.jpg",
+      "description": "Qadın qəhrəman Moana dəniz və adaları xilas edir."
+    },
+    {
+      "id": "43",
+      "title": "Frozen",
+      "imdbRating": 7.4,
+      "genre": [
+        "Animasiya",
+        "Fantastika"
+      ],
+      "type": "film",
+      "director": "Chris Buck, Jennifer Lee",
+      "cast": [
+        "Kristen Bell",
+        "Idina Menzel"
+      ],
+      "scenario": "Arendel krallığının şahzadəsi Elsanın buz və qar yaratmaq kimi gizli sehrli gücü var. Tacqoyma mərasimində bu güc aşkar olur və o, təsadüfən bütün krallığı əbədi qışa qərq edərək dağlara qaçır. Bacısı Anna, onu geri gətirmək və qışı dayandırmaq üçün buz satan Kristoff, sadiq maralı Sven və sevimli qar adamı Olaf ilə birlikdə təhlükəli bir yola çıxır. Hekayə klassik 'ağ atlı şahzadə' motivini qıraraq, əsl sevginin bacı bağı və fədakarlıq olduğunu nümayiş etdirir.",
+      "details": {
+        "duration": 102
+      },
+      "poster": "https://i.pinimg.com/736x/cd/f0/2f/cdf02fbb3554e09507bad8789e238b26.jpg",
+      "description": "İki bacı və sehrli buz aləminin hekayəsi."
+    },
+    {
+      "id": "44",
+      "title": "Zootopia 1",
+      "imdbRating": 8,
+      "genre": [
+        "Animasiya",
+        "Komediya"
+      ],
+      "type": "film",
+      "director": "Byron Howard, Rich Moore",
+      "cast": [
+        "Ginnifer Goodwin",
+        "Jason Bateman"
+      ],
+      "scenario": "Zootopiya heyvanların sülh içində yaşadığı müasir bir meqapolisdir. Kiçik dovşan Cudi Hopps şəhərin ilk dovşan polisi olur, lakin heç kim onu ciddi qəbul etmir. Özünü sübut etmək üçün o, 48 saat ərzində itkin düşmüş bir heyvanı tapmaq vəzifəsini öyrənilir. Cudi kömək üçün kələkbaz tülkü Nik Vayldı məcbur edir. Araşdırma dərinləşdikcə, họlar yırtıcı heyvanların vəhşiləşməsinin arxasında duran böyük bir siyasi sui-qəsdi aşkar edirlər. Film heyvanlar aləmi üzərindən cəmiyyətdəki stereotipləri və ayrı-seçkiliyi tənqid edir.",
+      "details": {
+        "duration": 108
+      },
+      "poster": "https://i.pinimg.com/1200x/c6/47/ed/c647ed93a3aa2df9fcfe1b6866276c18.jpg",
+      "description": "Heyvan şəhərində polis və cinayət sirrini açan macəra."
+    },
+    {
+      "id": "45",
+      "title": "Ratatouille",
+      "imdbRating": 8,
+      "genre": [
+        "Animasiya",
+        "Komediya"
+      ],
+      "type": "film",
+      "director": "Brad Bird",
+      "cast": [
+        "Patton Oswalt",
+        "Ian Holm"
+      ],
+      "scenario": "Remi, kəskin dad və qoxu bilmə qabiliyyətinə malik, aşpaz olmaq xəyalı ilə yaşayan bir siçandır. Tale onu Parisin ən məşhur restoranının mətbəxinə gətirir. Orada o, yemək bişirməkdən anlayışı olmayan gənc işçi Linquini ilə tanış olur. Remi, Linquinini başının üstündə gizlənib onun saçlarını çəkərək bir kukla kimi idarə edir və möhtəşəm yeməklər hazırlayır. Lakin bir siçanın mətbəxdə olması və sərt tənqidçi Anton Eqonun gəlişi onların bu gizli ortaqlığını böyük sınağa çəkir. Film 'hər kəs yemək bişirə bilər' ideyasını aşılayır.",
+      "details": {
+        "duration": 111
+      },
+      "poster": "https://i.pinimg.com/736x/0b/56/61/0b5661fa73fa3008a375616fbbf7537a.jpg",
+      "description": "Sıçan aşpaz Parisdə gastronomik macəraya başlayır."
+    },
+    {
+      "id": "46",
+      "title": "Wall-E",
+      "imdbRating": 8.4,
+      "genre": [
+        "Animasiya",
+        "Elmi fantastika"
+      ],
+      "type": "film",
+      "director": "Andrew Stanton",
+      "cast": [
+        "Ben Burtt",
+        "Elissa Knight"
+      ],
+      "scenario": "700 il əvvəl insanlar həddindən artıq çirklənmə səbəbindən Yer kürəsini tərk edib kosmik gəmilərdə yaşamağa başlayıblar. Yer kürəsində qalan tək canlı, zibilləri sıxışdırıb yığan kiçik robot Wall-E-dir. O, illərdir tənha işləyir və köhnə musiqili filmlərə baxaraq sevgi arzulayır. Bir gün kosmosdan araşdırma üçün EVE adlı modern bir robot gəlir. Wall-E ona aşiq olur və tapdığı kiçik bir canlını (yaşıl bitki) ona göstərir. Bu bitki Yerin yenidən yaşana biləcəyinin sübutudur. Wall-E bitkini və EVE-ni qorumaq üçün kosmosun dərinliklərinə qədər gedir.",
+      "details": {
+        "duration": 98
+      },
+      "poster": "https://i.pinimg.com/1200x/ff/93/fe/ff93fee2dd1b1ae0efd1616d19119006.jpg",
+      "description": "Robot Wall-E dünyanı təmizləməyə çalışır və sevgi tapır."
+    },
+    {
+      "id": "47",
+      "title": "Toy Story",
+      "imdbRating": 8.3,
+      "genre": [
+        "Animasiya",
+        "Macəra"
+      ],
+      "type": "film",
+      "director": "John Lasseter",
+      "cast": [
+        "Tom Hanks",
+        "Tim Allen"
+      ],
+      "scenario": "Vudi, balaca Endinin ən sevimli oyuncağı və digər oyuncaqların lideridir. Lakin Endinin ad günündə ona yeni və modern bir kosmik oyuncaq olan Buzz Laytyer hədiyyə edilir. Vudi qısqanclıqdan Buzz-dan qurtulmağa çalışarkən, hər ikisi təsadüfən evdən uzaq düşürlər. Onlar oyuncaqlara əziyyət verən qonşu uşaq Sidin evinə düşürlər. Buzz özünün əslində oyuncaq olduğunu kəşf edib depressiyaya düşəndə, Vudi ona dəstək olur. İndi họlar Endinin ailəsi köçməmişdən əvvəl birləşməli və əsl dostluğun nə olduğunu anlamalıdırlar.",
+      "details": {
+        "duration": 81
+      },
+      "poster": "https://i.pinimg.com/1200x/95/8b/4c/958b4cbdde90536e55387566ef0ed4d1.jpg",
+      "description": "Oyuncaqların gizli həyatı və dostluğu əks olunur."
+    },
+    {
+      "id": "48",
+      "title": "Zootopia 2",
+      "imdbRating": 7.8,
+      "genre": [
+        "Animasiya",
+        "Komediya",
+        "Macəra"
+      ],
+      "type": "film",
+      "director": "Byron Howard",
+      "cast": [
+        "Ginnifer Goodwin",
+        "Jason Bateman"
+      ],
+      "scenario": "Cudi Hopps və Nik Vayld artıq Zootopiya Polis İdarəsinin ən yaxşı tərəfdaşlarıdır. Şəhərdə yeni bir təhlükə — heyvanların təbiətini tamamilə dəyişdirə biləcək sirli bir texnologiya peyda olur. Onlar bu dəfə şəhərin daha qaranlıq məhəllələrinə enməli, yeni sürünən və suda-quruda yaşayan qəhrəmanlarla əməkdaşlıq etməli olurlar. Nikin keçmişindən gələn bir personaj işləri çətinləşdirir. Bu macəra onların həm peşəkar, həm də dostluq münasibətlərini yenidən sınağa çəkir.",
+      "details": {
+        "duration": 112
+      },
+      "poster": "https://i.pinimg.com/1200x/3c/44/83/3c4483342b94f85362adc50c369d2180.jpg",
+      "description": "Zootopia şəhərində yeni cinayət hadisəsi və qəhrəmanlarımızın macərası."
+    },
+    {
+      "id": "49",
+      "title": "Big Hero 6",
+      "imdbRating": 7.8,
+      "genre": [
+        "Animasiya",
+        "Aksiyon"
+      ],
+      "type": "film",
+      "director": "Don Hall, Chris Williams",
+      "cast": [
+        "Ryan Potter",
+        "Scott Adsit"
+      ],
+      "scenario": "Gənc dahi Hiro Hamada San-Fransokyo şəhərində qeyri-qanuni robot döyüşləri ilə məşğuldur. Qardaşı Tadashi onu bu yoldan çəkindirmək üçün öz ixtirası olan sağlamlıq robotu Baymaxı göstərir. Tadashi müəmmalı bir yanğında öldükdən sonra, Hiro onun ölümünün təsadüf olmadığını öyrənir. O, yumşaq və mehriban Baymaxı bir döyüş maşınına çevirir və Tadashinin universitet dostları ilə birlikdə texnoloji imkanlardan istifadə edərək bir super qəhrəman komandası qurur. Hiro qisas hissi ilə ədalət arasındakı fərqi öyrənməli olur.",
+      "details": {
+        "duration": 102
+      },
+      "poster": "https://i.pinimg.com/1200x/0d/10/b0/0d10b08f9990dd2354c0256a7172b2c5.jpg",
+      "description": "Gənc ixtiraçı Hiro və robot Baymax qəhrəmanlıq səyahətinə çıxır."
+    },
+    {
+      "id": "50",
+      "title": "How to Train Your Dragon",
+      "imdbRating": 8.1,
+      "genre": [
+        "Animasiya",
+        "Macəra"
+      ],
+      "type": "film",
+      "director": "Chris Sanders, Dean DeBlois",
+      "cast": [
+        "Jay Baruchel",
+        "Gerard Butler"
+      ],
+      "scenario": "Vikinglərin yaşadığı Berk adasında əjdahalarla döyüşmək bir həyat tərzidir. Qəbilə başçısının oğlu Hiccup, fiziki olaraq zəifdir və viking standartlarına uyğun gəlmir. Bir gün o, ən təhlükəli əjdaha növü olan 'Gecə qəzəbi'ni (Night Fury) vurur, lakin onu öldürə bilmir. Əksinə, yaralı əjdaha ilə dostlaşır və ona 'Dişsiz' (Toothless) adını verir. Hiccup əjdahaların əslində vəhşi canavarlar olmadığını, sadəcə qorunduqlarını anlayır. O, həm atasını, həm də bütün qəbiləni bu həqiqətə inandırmalı və əjdahalarla birlikdə böyük bir düşmənə qarşı vuruşmalıdır.",
+      "details": {
+        "duration": 98
+      },
+      "poster": "https://i.pinimg.com/1200x/0e/1b/c4/0e1bc4ddab50f275d155cfbc12bde215.jpg",
+      "description": "Gənc Viking və əjdaha arasında dostluq və macəra."
+    },
+    {
+      "id": "51",
+      "title": "500 Days of Summer",
+      "imdbRating": 7.7,
+      "genre": [
+        "Komediya",
+        "Romantik",
+        "Drama"
+      ],
+      "type": "film",
+      "director": "Marc Webb",
+      "cast": [
+        "Joseph Gordon-Levitt",
+        "Zooey Deschanel"
+      ],
+      "scenario": "Tom Hensen təbrik kartları hazırlayan, lakin memar olmaq xəyalı ilə yaşayan, taleyə və əsl sevgiyə inanan bir gəncdir. O, ofisdə yeni işə başlayan Summer Finn-ə ilk baxışdan aşiq olur. Lakin Summer sevgiyə və ciddi münasibətlərə inanmır. Film họların 500 günlük münasibətini Tomun xatirələri vasitəsilə, xronoloji ardıcıllıq olmadan təqdim edir. Biz sevginin ən xoşbəxt anlarını və ayrılığın ən ağır günlərini yan-yana görürük. Bu, klassik eşq hekayəsi deyil, sevgi haqqında, xəyalların reallıqla toqquşması haqqında dürüst bir filmdir.",
+      "details": {
+        "duration": 95
+      },
+      "poster": "https://i.pinimg.com/736x/2e/c6/b4/2ec6b45e437c33bc48d65a6418f342bc.jpg",
+      "description": "Tom və Summer-in qeyri-adi münasibətləri, sevgi və həyata baxış fərqləri ilə izah olunur."
+    },
+    {
+      "id": "52",
+      "title": "Narcos",
+      "imdbRating": 8.8,
+      "genre": [
+        "Cinayət",
+        "Drama"
+      ],
+      "type": "serial",
+      "director": "Chris Brancato (Creator)",
+      "cast": [
+        "Wagner Moura",
+        "Pedro Pascal",
+        "Boyd Holbrook"
+      ],
+      "scenario": "1970-ci illərin sonunda Kolumbiyada Pablo Eskobar adlı qaçaqmalçı kokain biznesinin inanılmaz gəlir gətirdiyini kəşf edir. O, Medelin kartelini yaradaraq dünyanın ən zəngin və ən qorxulu adamlarından birinə çevrilir. Eskobar həm xalqın gözündə 'Robin Qud' kimi görünməyə çalışır, həm də dövlətə qarşı terror tətbiq edir. ABŞ-dan gələn DEA agentləri Stiv Merfi və Xavyer Penya Kolumbiya polisi ilə birlikdə Eskobarı dayandırmaq üçün həyatlarını təhlükəyə atırlar. Serial real faktlara əsaslanaraq narkotik müharibəsinin qəddarlığını və mürəkkəbliyini göstərir.",
+      "details": {
+        "seasons": 3,
+        "episodes": 30
+      },
+      "poster": "https://i.pinimg.com/1200x/01/a8/a4/01a8a42e5728f7c0fcb722e0cf41df3a.jpg",
+      "description": "Kolumbiya narkotik kartellərinin yüksəlişi və düşüşü."
+    }
+  ]

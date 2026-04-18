@@ -2,17 +2,19 @@ let toggle = document.getElementById("toggle-btn")
 let sidebar = document.getElementById("sidebar");
 
 let Base_API = `https://69b99a1ce69653ffe6a8318b.mockapi.io/moveData`
-let News_API = `https://69b99a1ce69653ffe6a8318b.mockapi.io/genre`
+let News_API = `https://69b99a1ce69653ffe6a8318b.mockapi.io/news`
 
 let title = document.getElementById("title");
 let cards = document.getElementById("Cards")
+let news = document.getElementById("news")
 let genre = document.getElementById("genre")
 let display = document.getElementById("display")
 
 let all = []
+let allNews = []
 
 let genreData = [
-  {"id": 0,"name": "Hamısı"},
+  {"id": 0,  "name": "Hamısı"},
   { "id": 1, "name": "Müharibə"},
   { "id": 2, "name": "Bioqrafiya"},
   { "id": 3, "name": "Macəra"},
@@ -30,10 +32,11 @@ let genreData = [
   { "id": 15, "name": "Triller"},
   { "id": 16, "name": "Aksiyon"}
 ]
+function showGenre(){ genre.style.display = genre.style.display === 'block' ? 'none' : 'block'; }
 
 genreData.map(item => {
   genre.innerHTML += `
-    <li onclick="filtrData('${item.name}')" class="text-gray-300 text-sm font-medium block cursor-pointer  hover:bg-orange-500 rounded-md px-3 py-2 transition-all  duration-300">
+    <li onclick="filtrData('${item.name}')" class="text-gray-300 text-sm font-medium block cursor-pointer  hover:bg-orange-500 rounded-md px-3 py-2 transition-all   duration-300">
         <span>${item.name}</span>
     </li>
   `
@@ -44,13 +47,20 @@ function openClose() {
   sidebar.classList.toggle("translate-x-0");
 }
 
-
 fetch(Base_API)
   .then(response => response.json())
   .then(data => {
     all = data;
     getCards(all);
   });
+
+  fetch(News_API)
+  .then(response => response.json())
+  .then(data => {
+    allNews = data;
+   
+  });
+
 
 function filtrData(name) {
   const filtered = (name === "Hamısı") ? all : all.filter(f => f.genre.includes(name));
@@ -121,8 +131,42 @@ function getCards(show) {
   </div>
     `
   })
+  cards.style.display = 'grid'
+  display.style.display = 'none'
+  news.style.display = 'none'
+  title.innerHTML =  "Bütün Janrlar"
 }
+//----------------------------------------News---------------------------------------------------------------
+function getNews(showNews){
+  news.innerHTML = ""
+  showNews.map(item => {
+    
+    news.innerHTML += `
+    <div class="grid md:grid-cols-2 items-center gap-12 max-w-6xl max-md:max-w-md mx-auto p-4 shadow-lg">
+    <div class="bg-gray-50">
+    <img src="${item.photo}" class="w-full h-80  object-cover/center " />
+    </div>
 
+    <div>
+      <h2 class="text-3xl !font-semibold text-orange-900 !leading-tight">${item.title}</h2>
+      <p class="mt-4 text-[15px] text-slate-600 font-medium leading-relaxed">${item.newsText}</p>
+      <div class="mt-8 text-left">
+        <h4 class="text-yellow-600 font-semibold">Mənbə: ${item.source}</h4>
+        <p class="text-xs text-yellow-600 mt-1">Tarix: ${item.date}</p>
+      </div>
+    </div>
+    </div>
+    `
+  })
+  news.style.display = 'block'
+  cards.style.display = 'none'
+  display.style.display = 'none'
+  title.innerHTML =  "Xəbərlər"
+}
+function doubleClick(){
+  showGenre();
+  getCards(all);
+}
 //-----------------------------------------------Search filtr----------------------------------------------------
 
 let resultSearch = document.getElementById("resultSearch")
@@ -211,4 +255,3 @@ console.log(bookmark)
 
 //--------------------------------------------------------------
 
-function showGenre(){ genre.style.display = genre.style.display === 'block' ? 'none' : 'block'; }
