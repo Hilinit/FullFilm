@@ -70,8 +70,7 @@ function filtrData(name) {
       `<main class="grid min-h-full place-items-center bg-gray-900 px-6 py-24 sm:py-32 lg:px-8">
           <div class="text-center">
             <h1 class="mt-4 text-[50px] font-semibold tracking-tight text-balance text-white sm:text-7xl">404</h1>
-            <p class="mt-6 text-lg text-[50px] text-pretty text-gray-400 sm:text-xl/8">Bu janrlı film/serial hələ ki bazada mövcud deyil!</p>
-            
+            <p class="mt-6 text-lg text-[50px] text-pretty text-gray-400 sm:text-xl/8">Bu janrlı film/serial hələ ki bazada mövcud deyil!</p> 
           </div>
         </main>`
     display.style.display = 'block'
@@ -83,7 +82,6 @@ function filtrData(name) {
     cards.style.display = 'grid'
   }
   title.innerHTML = name === "Hamısı" ? "Bütün Janrlar" : `${name} janrında filmlər/seriallar `;
-
 };
 
 function slugTitle(title) {
@@ -198,7 +196,6 @@ function filtrGenre(input) {
         </div>
       `})
   } else searchMessage.innerHTML = "Axtarışa uyğun nəticə mövcud deyil!"
-  
 }
 
 let searchPanel = document.getElementById("searchPanel")

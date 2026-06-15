@@ -10,7 +10,6 @@
   </head>
 
   <body>
-
     <div class="fixed inset-0 z-50">
       <div class="absolute inset-0 bg-cover bg-center"
         style="background-image: url('https://i.pinimg.com/1200x/56/51/81/565181f6b45c563cd51d8fde3f9568f3.jpg');">
@@ -34,13 +33,11 @@
         <form class="space-y-6 w-full max-w-md bg-[#0f172b]/90 p-10 rounded-xl shadow-xl">
           <p class="w-full flex justify-center px-2 py-2 text-orange-600 text-3xl font-extrabold">Login Panel</p>
 
-
           <div class="flex items-center">
             <label class="text-white/80 w-36 text-sm">Email</label>
             <input id="email" type="email" placeholder="Enter your email" autocomplete="email"
               class="text-orange-600 w-full px-2 py-2 border-b border-gray-300 focus:border-orange-600 outline-none text-sm" />
           </div>
-
 
           <div class="flex items-center">
             <label class="text-white/80 w-36 text-sm">Password</label>
@@ -57,11 +54,12 @@
             <span id="message" class="underline text-orange-500 hover:cursor-pointer">Klik edin!</span>
           </p>
 
-
           <div id="error" style="display:none" class="bg-red-300 text-red-900 p-4 rounded-lg" role="alert">
             <span class="font-semibold text-[15px] inline-block mr-1 ml-20 lg:ml-0">Error!</span>
-            <span class="block text-sm font-medium sm:inline max-sm:mt-2">Email və ya password səhvdir!</span>
+            <span id="errorMessage"
+            class="block text-sm font-medium sm:inline max-sm:mt-2"></span>
           </div>
+
         </form>
       </div>
     </div>
